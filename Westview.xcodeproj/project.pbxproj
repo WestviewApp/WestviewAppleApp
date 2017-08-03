@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E2AD12DDE2100F64BE1B377 /* Pods_WestviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737C9823A26DF637942171E7 /* Pods_WestviewUITests.framework */; };
+		6FAD1E4D3C383BF49B3CCF94 /* Pods_Westview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7894C9EFB90DC212413D9C57 /* Pods_Westview.framework */; };
 		A6EDA2551F32C07700A7ADA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDA2541F32C07700A7ADA3 /* AppDelegate.swift */; };
 		A6EDA2571F32C07700A7ADA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDA2561F32C07700A7ADA3 /* ViewController.swift */; };
 		A6EDA25A1F32C07700A7ADA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EDA2581F32C07700A7ADA3 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		A6EDA25F1F32C07700A7ADA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EDA25D1F32C07700A7ADA3 /* LaunchScreen.storyboard */; };
 		A6EDA26A1F32C07700A7ADA3 /* WestviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDA2691F32C07700A7ADA3 /* WestviewTests.swift */; };
 		A6EDA2751F32C07700A7ADA3 /* WestviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDA2741F32C07700A7ADA3 /* WestviewUITests.swift */; };
+		D52AA446EBE31BE10CDF86A6 /* Pods_WestviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF8CDD006B1FDD583DC0578 /* Pods_WestviewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28B2B7BC8485D5F2145FFE85 /* Pods-WestviewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestviewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WestviewUITests/Pods-WestviewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DF8CDD006B1FDD583DC0578 /* Pods_WestviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WestviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBA1C9765DC2EC63170FC31 /* Pods-Westview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Westview.release.xcconfig"; path = "Pods/Target Support Files/Pods-Westview/Pods-Westview.release.xcconfig"; sourceTree = "<group>"; };
+		737C9823A26DF637942171E7 /* Pods_WestviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WestviewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7894C9EFB90DC212413D9C57 /* Pods_Westview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Westview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		921525A1CA68780BD1F097B7 /* Pods-WestviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestviewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WestviewTests/Pods-WestviewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		925F504FF485DCD253AE0AC8 /* Pods-WestviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestviewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WestviewTests/Pods-WestviewTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6EDA2511F32C07700A7ADA3 /* Westview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EDA2541F32C07700A7ADA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6EDA2561F32C07700A7ADA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		A6EDA2701F32C07700A7ADA3 /* WestviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EDA2741F32C07700A7ADA3 /* WestviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestviewUITests.swift; sourceTree = "<group>"; };
 		A6EDA2761F32C07700A7ADA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B605CBAA32645636169F3E39 /* Pods-WestviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestviewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WestviewUITests/Pods-WestviewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C55AAF4AEEDDA4C0BAC15DE7 /* Pods-Westview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Westview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Westview/Pods-Westview.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FAD1E4D3C383BF49B3CCF94 /* Pods_Westview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52AA446EBE31BE10CDF86A6 /* Pods_WestviewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2AD12DDE2100F64BE1B377 /* Pods_WestviewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FC5E4ED4CA4206323B37442 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C55AAF4AEEDDA4C0BAC15DE7 /* Pods-Westview.debug.xcconfig */,
+				2EBA1C9765DC2EC63170FC31 /* Pods-Westview.release.xcconfig */,
+				921525A1CA68780BD1F097B7 /* Pods-WestviewTests.debug.xcconfig */,
+				925F504FF485DCD253AE0AC8 /* Pods-WestviewTests.release.xcconfig */,
+				28B2B7BC8485D5F2145FFE85 /* Pods-WestviewUITests.debug.xcconfig */,
+				B605CBAA32645636169F3E39 /* Pods-WestviewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B5E1CD19F940920702BF8F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7894C9EFB90DC212413D9C57 /* Pods_Westview.framework */,
+				2DF8CDD006B1FDD583DC0578 /* Pods_WestviewTests.framework */,
+				737C9823A26DF637942171E7 /* Pods_WestviewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A6EDA2481F32C07700A7ADA3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				A6EDA2681F32C07700A7ADA3 /* WestviewTests */,
 				A6EDA2731F32C07700A7ADA3 /* WestviewUITests */,
 				A6EDA2521F32C07700A7ADA3 /* Products */,
+				1FC5E4ED4CA4206323B37442 /* Pods */,
+				9B5E1CD19F940920702BF8F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6EDA2791F32C07700A7ADA3 /* Build configuration list for PBXNativeTarget "Westview" */;
 			buildPhases = (
+				02F2BEB21EF7167B59AD371C /* [CP] Check Pods Manifest.lock */,
 				A6EDA24D1F32C07700A7ADA3 /* Sources */,
 				A6EDA24E1F32C07700A7ADA3 /* Frameworks */,
 				A6EDA24F1F32C07700A7ADA3 /* Resources */,
+				B6414053CDB19A56432AC4D1 /* [CP] Embed Pods Frameworks */,
+				530E5A97BE49F093CC51E1AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6EDA27C1F32C07700A7ADA3 /* Build configuration list for PBXNativeTarget "WestviewTests" */;
 			buildPhases = (
+				88C3276549C335B98D9257EB /* [CP] Check Pods Manifest.lock */,
 				A6EDA2611F32C07700A7ADA3 /* Sources */,
 				A6EDA2621F32C07700A7ADA3 /* Frameworks */,
 				A6EDA2631F32C07700A7ADA3 /* Resources */,
+				A5152145A1E5924D624673B6 /* [CP] Embed Pods Frameworks */,
+				ACB2FA70DF87BE01B35A35A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6EDA27F1F32C07700A7ADA3 /* Build configuration list for PBXNativeTarget "WestviewUITests" */;
 			buildPhases = (
+				B3E10A0FC9176D7164084C48 /* [CP] Check Pods Manifest.lock */,
 				A6EDA26C1F32C07700A7ADA3 /* Sources */,
 				A6EDA26D1F32C07700A7ADA3 /* Frameworks */,
 				A6EDA26E1F32C07700A7ADA3 /* Resources */,
+				94AC7CA28997A775A4B853DB /* [CP] Embed Pods Frameworks */,
+				719E44A32A3D3E27F916C32B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02F2BEB21EF7167B59AD371C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		530E5A97BE49F093CC51E1AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Westview/Pods-Westview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		719E44A32A3D3E27F916C32B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WestviewUITests/Pods-WestviewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88C3276549C335B98D9257EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94AC7CA28997A775A4B853DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WestviewUITests/Pods-WestviewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5152145A1E5924D624673B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WestviewTests/Pods-WestviewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB2FA70DF87BE01B35A35A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WestviewTests/Pods-WestviewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3E10A0FC9176D7164084C48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6414053CDB19A56432AC4D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Westview/Pods-Westview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6EDA24D1F32C07700A7ADA3 /* Sources */ = {
@@ -415,6 +602,7 @@
 		};
 		A6EDA27A1F32C07700A7ADA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55AAF4AEEDDA4C0BAC15DE7 /* Pods-Westview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8F2RPBSBD;
@@ -428,6 +616,7 @@
 		};
 		A6EDA27B1F32C07700A7ADA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EBA1C9765DC2EC63170FC31 /* Pods-Westview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8F2RPBSBD;
@@ -441,6 +630,7 @@
 		};
 		A6EDA27D1F32C07700A7ADA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921525A1CA68780BD1F097B7 /* Pods-WestviewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +646,7 @@
 		};
 		A6EDA27E1F32C07700A7ADA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925F504FF485DCD253AE0AC8 /* Pods-WestviewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +662,7 @@
 		};
 		A6EDA2801F32C07700A7ADA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B2B7BC8485D5F2145FFE85 /* Pods-WestviewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A8F2RPBSBD;
@@ -485,6 +677,7 @@
 		};
 		A6EDA2811F32C07700A7ADA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B605CBAA32645636169F3E39 /* Pods-WestviewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = A8F2RPBSBD;
