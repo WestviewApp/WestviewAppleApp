@@ -8,7 +8,8 @@ target 'Westview' do
   # Pods for Westview
   pod 'FontAwesomeIconFactory'
   pod 'M13PDFKit', '1.0.2'
-
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
   target 'WestviewTests' do
     inherit! :search_paths
     # Pods for testing
