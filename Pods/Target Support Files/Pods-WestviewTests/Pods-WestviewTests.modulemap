@@ -1,0 +1,6 @@
+framework module Pods_WestviewTests {
+  umbrella header "Pods-WestviewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

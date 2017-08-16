@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FontAwesomeIconFactory.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Westview.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-WestviewTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-WestviewUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>029E824A4CD211697D61DBFC95600AA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>176880C5C6CF87C8408CBFD8264F15B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34E2FE02F69845D7E81F53D6DF22DC2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B178422787F9C9038054DE334D0DA281</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

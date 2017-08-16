@@ -1,0 +1,6 @@
+framework module Pods_Westview {
+  umbrella header "Pods-Westview-umbrella.h"
+
+  export *
+  module * { export * }
+}
