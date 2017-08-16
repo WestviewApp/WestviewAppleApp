@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "029E824A4CD211697D61DBFC95600AA9"
+               BlueprintIdentifier = "B35D8E3C55C8E1EB6D42BC6D210E25BB"
                BuildableName = "Pods_Westview.framework"
                BlueprintName = "Pods-Westview"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "029E824A4CD211697D61DBFC95600AA9"
+            BlueprintIdentifier = "B35D8E3C55C8E1EB6D42BC6D210E25BB"
             BuildableName = "Pods_Westview.framework"
             BlueprintName = "Pods-Westview"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -18,7 +18,7 @@
         <!--Handbook-->
         <scene sceneID="D78-dL-I1l">
             <objects>
-                <viewController id="ddH-b4-Y7z" sceneMemberID="viewController">
+                <viewController id="ddH-b4-Y7z" customClass="HandbookViewController" customModule="Westview" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bUP-Bb-yFt"/>
                         <viewControllerLayoutGuide type="bottom" id="N6T-mp-rfo"/>
@@ -27,34 +27,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HF2-aJ-HQO">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CL2-H9-ZoM">
+                                <rect key="frame" x="0.0" y="17" width="320" height="44"/>
                                 <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Xie-hO-y38"/>
+                                    <constraint firstAttribute="height" constant="44" id="cqg-Av-A0d"/>
                                 </constraints>
                                 <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Westview High School" id="zNz-3r-LEs"/>
+                                    <navigationItem title="Westview High School" id="wXJ-bg-nNv"/>
                                 </items>
                             </navigationBar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sg7-ZV-IFj">
-                                <rect key="frame" x="0.0" y="44" width="320" height="475"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b8h-4k-7nb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="17"/>
+                                <color key="backgroundColor" red="0.082127340140000005" green="0.082225538789999997" blue="0.082142569119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="HF2-aJ-HQO" firstAttribute="top" secondItem="fZm-cY-4Si" secondAttribute="top" id="7E8-7B-THp"/>
-                            <constraint firstAttribute="trailing" secondItem="Sg7-ZV-IFj" secondAttribute="trailing" id="JuM-hk-uac"/>
-                            <constraint firstAttribute="trailing" secondItem="HF2-aJ-HQO" secondAttribute="trailing" id="aci-hS-ULf"/>
-                            <constraint firstItem="HF2-aJ-HQO" firstAttribute="leading" secondItem="fZm-cY-4Si" secondAttribute="leading" id="apm-ea-XjW"/>
-                            <constraint firstItem="Sg7-ZV-IFj" firstAttribute="leading" secondItem="fZm-cY-4Si" secondAttribute="leading" id="n1A-pl-syN"/>
-                            <constraint firstItem="N6T-mp-rfo" firstAttribute="top" secondItem="Sg7-ZV-IFj" secondAttribute="bottom" id="tXK-FN-ZLE"/>
-                            <constraint firstItem="Sg7-ZV-IFj" firstAttribute="top" secondItem="HF2-aJ-HQO" secondAttribute="bottom" id="zfo-4b-hOv"/>
+                            <constraint firstAttribute="trailing" secondItem="b8h-4k-7nb" secondAttribute="trailing" id="NUk-VV-oku"/>
+                            <constraint firstItem="b8h-4k-7nb" firstAttribute="leading" secondItem="fZm-cY-4Si" secondAttribute="leading" id="W0y-Kd-s9C"/>
+                            <constraint firstItem="b8h-4k-7nb" firstAttribute="top" secondItem="fZm-cY-4Si" secondAttribute="top" id="iaF-1i-KHX"/>
+                            <constraint firstItem="CL2-H9-ZoM" firstAttribute="top" secondItem="fZm-cY-4Si" secondAttribute="top" constant="17" id="lB1-bO-Klg"/>
+                            <constraint firstAttribute="trailing" secondItem="CL2-H9-ZoM" secondAttribute="trailing" id="mLd-Ko-E9A"/>
+                            <constraint firstItem="CL2-H9-ZoM" firstAttribute="leading" secondItem="fZm-cY-4Si" secondAttribute="leading" id="npo-t7-eVQ"/>
+                            <constraint firstItem="CL2-H9-ZoM" firstAttribute="top" secondItem="b8h-4k-7nb" secondAttribute="bottom" id="x2e-8g-Uss"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Handbook" image="book" id="afk-cJ-Zb8"/>
@@ -66,7 +66,7 @@
         <!--Schedule-->
         <scene sceneID="cRs-Ah-iG7">
             <objects>
-                <viewController id="fdY-Kw-gl9" sceneMemberID="viewController">
+                <viewController id="fdY-Kw-gl9" customClass="ScheduleViewController" customModule="Westview" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="piB-7j-b9G"/>
                         <viewControllerLayoutGuide type="bottom" id="2ay-Vn-J8u"/>
@@ -76,10 +76,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2i-2a-b0c">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="17" width="320" height="44"/>
                                 <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="gFM-Vy-EZb"/>
+                                    <constraint firstAttribute="height" constant="44" id="5Cp-U1-2Hv"/>
                                 </constraints>
                                 <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
@@ -90,9 +90,9 @@
                                 </items>
                             </navigationBar>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MkE-Vk-s23">
-                                <rect key="frame" x="10" y="57" width="302" height="29"/>
+                                <rect key="frame" x="9" y="83" width="302" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="ny9-Bh-NSg"/>
+                                    <constraint firstAttribute="height" constant="28" id="vtC-HC-I6b"/>
                                 </constraints>
                                 <segments>
                                     <segment title="Mon"/>
@@ -103,34 +103,42 @@
                                 </segments>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XeR-e1-UaO">
-                                <rect key="frame" x="16" y="110" width="288" height="409"/>
+                                <rect key="frame" x="16" y="135" width="288" height="384"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxu-5e-Aor">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="17"/>
+                                <color key="backgroundColor" red="0.082127340140000005" green="0.082225538789999997" blue="0.082142569119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XeR-e1-UaO" firstAttribute="top" secondItem="MkE-Vk-s23" secondAttribute="bottom" constant="25" id="0lQ-Px-ToE"/>
-                            <constraint firstItem="e2i-2a-b0c" firstAttribute="leading" secondItem="zbE-Qz-TEn" secondAttribute="leading" id="8u1-f2-rqi"/>
-                            <constraint firstAttribute="trailing" secondItem="e2i-2a-b0c" secondAttribute="trailing" id="K2G-Dz-o4P"/>
-                            <constraint firstItem="2ay-Vn-J8u" firstAttribute="top" secondItem="XeR-e1-UaO" secondAttribute="bottom" id="QLb-Ae-aqQ"/>
-                            <constraint firstItem="MkE-Vk-s23" firstAttribute="top" secondItem="e2i-2a-b0c" secondAttribute="bottom" constant="13" id="RYD-fv-4tT"/>
-                            <constraint firstItem="e2i-2a-b0c" firstAttribute="top" secondItem="zbE-Qz-TEn" secondAttribute="top" id="b6B-OE-rQ4"/>
-                            <constraint firstAttribute="trailing" secondItem="MkE-Vk-s23" secondAttribute="trailing" constant="8" id="i8p-rF-LBf"/>
-                            <constraint firstItem="XeR-e1-UaO" firstAttribute="leading" secondItem="zbE-Qz-TEn" secondAttribute="leadingMargin" id="pMU-1U-S5f"/>
-                            <constraint firstItem="XeR-e1-UaO" firstAttribute="trailing" secondItem="zbE-Qz-TEn" secondAttribute="trailingMargin" id="rbx-ih-qzm"/>
-                            <constraint firstItem="MkE-Vk-s23" firstAttribute="leading" secondItem="zbE-Qz-TEn" secondAttribute="leading" constant="10" id="wrj-KL-K0q"/>
+                            <constraint firstItem="wxu-5e-Aor" firstAttribute="leading" secondItem="zbE-Qz-TEn" secondAttribute="leading" id="1zi-Zn-DDm"/>
+                            <constraint firstItem="e2i-2a-b0c" firstAttribute="leading" secondItem="zbE-Qz-TEn" secondAttribute="leading" id="6hd-9M-Cuu"/>
+                            <constraint firstItem="e2i-2a-b0c" firstAttribute="top" secondItem="wxu-5e-Aor" secondAttribute="bottom" id="DKF-UD-cVm"/>
+                            <constraint firstAttribute="trailing" secondItem="MkE-Vk-s23" secondAttribute="trailing" constant="9" id="I8I-53-nwf"/>
+                            <constraint firstItem="MkE-Vk-s23" firstAttribute="leading" secondItem="zbE-Qz-TEn" secondAttribute="leading" constant="9" id="OVT-tW-Byf"/>
+                            <constraint firstAttribute="trailing" secondItem="XeR-e1-UaO" secondAttribute="trailing" constant="16" id="SlK-Bc-R5u"/>
+                            <constraint firstItem="2ay-Vn-J8u" firstAttribute="top" secondItem="XeR-e1-UaO" secondAttribute="bottom" id="Vgy-Qb-buO"/>
+                            <constraint firstItem="XeR-e1-UaO" firstAttribute="top" secondItem="MkE-Vk-s23" secondAttribute="bottom" constant="24" id="Waw-SI-Nc3"/>
+                            <constraint firstItem="wxu-5e-Aor" firstAttribute="top" secondItem="zbE-Qz-TEn" secondAttribute="top" id="Wby-9f-7u0"/>
+                            <constraint firstItem="MkE-Vk-s23" firstAttribute="top" secondItem="e2i-2a-b0c" secondAttribute="bottom" constant="22" id="a1o-YF-0ia"/>
+                            <constraint firstItem="e2i-2a-b0c" firstAttribute="top" secondItem="zbE-Qz-TEn" secondAttribute="top" constant="17" id="ahZ-IJ-q0m"/>
+                            <constraint firstAttribute="trailing" secondItem="wxu-5e-Aor" secondAttribute="trailing" id="fG2-de-QQp"/>
+                            <constraint firstAttribute="trailing" secondItem="e2i-2a-b0c" secondAttribute="trailing" id="gqE-CO-6lX"/>
+                            <constraint firstItem="XeR-e1-UaO" firstAttribute="leading" secondItem="zbE-Qz-TEn" secondAttribute="leading" constant="16" id="hMD-HA-pn6"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Schedule" image="bell" id="PmT-uQ-Zu3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2a-GR-GZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-47" y="-367"/>
+            <point key="canvasLocation" x="-48.75" y="-367.6056338028169"/>
         </scene>
         <!--Map-->
         <scene sceneID="Xpd-ZI-uhX">
             <objects>
-                <viewController id="Tyf-lJ-IL7" sceneMemberID="viewController">
+                <viewController id="Tyf-lJ-IL7" customClass="MapViewController" customModule="Westview" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yLd-or-1Xt"/>
                         <viewControllerLayoutGuide type="bottom" id="viY-dI-uLj"/>
@@ -140,10 +148,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kUw-mt-8Pr">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="17" width="320" height="44"/>
                                 <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Bns-tq-RvO"/>
+                                    <constraint firstAttribute="height" constant="44" id="a9B-u8-awK"/>
                                 </constraints>
                                 <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
@@ -153,12 +161,20 @@
                                     <navigationItem title="Westview High School" id="j4g-V9-tPZ"/>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sac-64-ZIZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="17"/>
+                                <color key="backgroundColor" red="0.082127340140000005" green="0.082225538789999997" blue="0.082142569119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kUw-mt-8Pr" firstAttribute="leading" secondItem="I2G-Lv-YXi" secondAttribute="leading" id="BQE-E1-mLJ"/>
-                            <constraint firstItem="kUw-mt-8Pr" firstAttribute="top" secondItem="I2G-Lv-YXi" secondAttribute="top" id="GpJ-hR-2HX"/>
-                            <constraint firstAttribute="trailing" secondItem="kUw-mt-8Pr" secondAttribute="trailing" id="I4C-3C-1DS"/>
+                            <constraint firstItem="Sac-64-ZIZ" firstAttribute="top" secondItem="I2G-Lv-YXi" secondAttribute="top" id="coJ-S3-2QH"/>
+                            <constraint firstItem="kUw-mt-8Pr" firstAttribute="top" secondItem="I2G-Lv-YXi" secondAttribute="top" constant="17" id="o75-Xi-6X5"/>
+                            <constraint firstItem="Sac-64-ZIZ" firstAttribute="leading" secondItem="I2G-Lv-YXi" secondAttribute="leading" id="oM8-KL-jYA"/>
+                            <constraint firstItem="kUw-mt-8Pr" firstAttribute="leading" secondItem="I2G-Lv-YXi" secondAttribute="leading" id="vXf-M7-01l"/>
+                            <constraint firstAttribute="trailing" secondItem="kUw-mt-8Pr" secondAttribute="trailing" id="vYu-oL-vTe"/>
+                            <constraint firstItem="kUw-mt-8Pr" firstAttribute="top" secondItem="Sac-64-ZIZ" secondAttribute="bottom" id="vgC-V4-MBC"/>
+                            <constraint firstAttribute="trailing" secondItem="Sac-64-ZIZ" secondAttribute="trailing" id="zSG-Zr-S5J"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" id="Dpl-4w-x3K"/>
@@ -170,7 +186,7 @@
         <!--Calendar-->
         <scene sceneID="K3g-38-jWF">
             <objects>
-                <viewController id="kad-ji-8GO" sceneMemberID="viewController">
+                <viewController id="kad-ji-8GO" customClass="CalendarViewController" customModule="Westview" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pcV-et-wrd"/>
                         <viewControllerLayoutGuide type="bottom" id="AD4-Af-uvh"/>
@@ -180,32 +196,58 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yo6-IF-mA8">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="17" width="320" height="44"/>
                                 <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="E2H-SE-22h"/>
+                                    <constraint firstAttribute="height" constant="44" id="e0d-wl-jnH"/>
                                 </constraints>
                                 <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Westview High School" id="5rU-bz-Do8"/>
+                                    <navigationItem title="Westview High School" id="5rU-bz-Do8">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="Fj8-y9-RPe">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <action selector="openInSafari:" destination="kad-ji-8GO" id="cN2-WN-8H0"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYb-rb-QXh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="17"/>
+                                <color key="backgroundColor" red="0.082127340140000005" green="0.082225538789999997" blue="0.082142569119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6CN-Fn-mm2">
+                                <rect key="frame" x="0.0" y="61" width="320" height="458"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Yo6-IF-mA8" firstAttribute="top" secondItem="CFE-I3-dBS" secondAttribute="top" id="NRe-Vp-aAv"/>
-                            <constraint firstAttribute="trailing" secondItem="Yo6-IF-mA8" secondAttribute="trailing" id="qRm-Lg-ytp"/>
-                            <constraint firstItem="Yo6-IF-mA8" firstAttribute="leading" secondItem="CFE-I3-dBS" secondAttribute="leading" id="wM2-24-8JF"/>
+                            <constraint firstItem="6CN-Fn-mm2" firstAttribute="leading" secondItem="CFE-I3-dBS" secondAttribute="leading" id="4kJ-Im-x8J"/>
+                            <constraint firstItem="6CN-Fn-mm2" firstAttribute="top" secondItem="Yo6-IF-mA8" secondAttribute="bottom" id="69S-qS-DJz"/>
+                            <constraint firstAttribute="trailing" secondItem="6CN-Fn-mm2" secondAttribute="trailing" id="HGf-Qt-lfc"/>
+                            <constraint firstItem="vYb-rb-QXh" firstAttribute="top" secondItem="CFE-I3-dBS" secondAttribute="top" id="J3H-jR-IqP"/>
+                            <constraint firstItem="Yo6-IF-mA8" firstAttribute="top" secondItem="CFE-I3-dBS" secondAttribute="top" constant="17" id="Jh7-YT-6SM"/>
+                            <constraint firstItem="AD4-Af-uvh" firstAttribute="top" secondItem="6CN-Fn-mm2" secondAttribute="bottom" id="KUm-Qg-Vt5"/>
+                            <constraint firstAttribute="trailing" secondItem="vYb-rb-QXh" secondAttribute="trailing" id="Vzt-SY-PxL"/>
+                            <constraint firstItem="vYb-rb-QXh" firstAttribute="leading" secondItem="CFE-I3-dBS" secondAttribute="leading" id="dmU-T5-3Yw"/>
+                            <constraint firstItem="Yo6-IF-mA8" firstAttribute="top" secondItem="vYb-rb-QXh" secondAttribute="bottom" id="pxR-87-MAc"/>
+                            <constraint firstItem="Yo6-IF-mA8" firstAttribute="leading" secondItem="CFE-I3-dBS" secondAttribute="leading" id="rBt-xI-dB9"/>
+                            <constraint firstAttribute="trailing" secondItem="Yo6-IF-mA8" secondAttribute="trailing" id="wba-zP-lTx"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="calendar" id="BQf-Vu-JB2"/>
+                    <connections>
+                        <outlet property="webView" destination="6CN-Fn-mm2" id="2eB-0t-gYh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgW-4J-A1J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1638" y="-367"/>
+            <point key="canvasLocation" x="1636.875" y="-367.6056338028169"/>
         </scene>
         <!--Home-->
         <scene sceneID="PZr-xR-iPS">
@@ -458,6 +500,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.16762575507164001" green="0.16778519749641418" blue="0.16765043139457703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="K5x-bo-PEL" kind="relationship" relationship="viewControllers" id="e1r-HE-0vu"/>

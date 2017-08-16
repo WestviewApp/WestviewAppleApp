@@ -7,6 +7,7 @@ target 'Westview' do
 
   # Pods for Westview
   pod 'FontAwesomeIconFactory'
+  pod 'M13PDFKit', '1.0.2'
 
   target 'WestviewTests' do
     inherit! :search_paths

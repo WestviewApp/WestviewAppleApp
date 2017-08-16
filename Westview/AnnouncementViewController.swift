@@ -9,15 +9,12 @@
 import UIKit
 
 
-class AnnouncementViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class AnnouncementViewController: LightVC, UITableViewDelegate, UITableViewDataSource {
 
     typealias Announcement = String
     var announcements: [Announcement] = []
     
     @IBOutlet weak var announcementView: UITableView!
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

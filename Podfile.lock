@@ -1,12 +1,18 @@
 PODS:
   - FontAwesomeIconFactory (2.1.1)
+  - M13PDFKit (1.0.2):
+    - TTOpenInAppActivity
+  - TTOpenInAppActivity (1.0)
 
 DEPENDENCIES:
   - FontAwesomeIconFactory
+  - M13PDFKit (= 1.0.2)
 
 SPEC CHECKSUMS:
   FontAwesomeIconFactory: bb9ce26d3dd13044854a82d380023c8e7d3ebf1a
+  M13PDFKit: bc121a55ccb8ddfcf3982f1a5a8592b9f492cd73
+  TTOpenInAppActivity: c2218fe419d03ddd4ffb1f07d52d66e0d213d0d4
 
-PODFILE CHECKSUM: 045a3b3d1d941cfa3fb67d2c092929b02a8f771e
+PODFILE CHECKSUM: 25d106093e6251726bd8f815185cddb2c2ce8454
 
 COCOAPODS: 1.2.1
