@@ -101,10 +101,63 @@
                                     <segment title="Thu"/>
                                     <segment title="Fri"/>
                                 </segments>
+                                <connections>
+                                    <action selector="dayChanged:" destination="fdY-Kw-gl9" eventType="valueChanged" id="Ofs-Af-ao2"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XeR-e1-UaO">
                                 <rect key="frame" x="16" y="135" width="288" height="384"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="afu-k9-ANU" customClass="ScheduleTableViewCell" customModule="Westview" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="288" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="afu-k9-ANU" id="mj3-EP-ehs">
+                                            <rect key="frame" x="0.0" y="0.0" width="288" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Jw9-hz-q2p">
+                                                    <rect key="frame" x="8" y="10" width="272" height="23.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2r-WA-X7o">
+                                                            <rect key="frame" x="0.0" y="0.0" width="90.5" height="23.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fia-7H-cSq">
+                                                            <rect key="frame" x="90.5" y="0.0" width="91" height="23.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ne-Q9-hq3">
+                                                            <rect key="frame" x="181.5" y="0.0" width="90.5" height="23.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Jw9-hz-q2p" secondAttribute="bottom" constant="2" id="LRV-vG-hG1"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Jw9-hz-q2p" secondAttribute="trailing" id="hIC-Jz-LzI"/>
+                                                <constraint firstItem="Jw9-hz-q2p" firstAttribute="top" secondItem="mj3-EP-ehs" secondAttribute="topMargin" constant="2" id="lyq-WM-jbx"/>
+                                                <constraint firstItem="Jw9-hz-q2p" firstAttribute="leading" secondItem="mj3-EP-ehs" secondAttribute="leadingMargin" id="uXn-nQ-hGW"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="left" destination="h2r-WA-X7o" id="0qJ-eN-EfH"/>
+                                            <outlet property="mid" destination="fia-7H-cSq" id="7gl-bJ-E5U"/>
+                                            <outlet property="right" destination="7ne-Q9-hq3" id="3Fe-9Z-Yj0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fdY-Kw-gl9" id="x68-Qt-rqf"/>
+                                    <outlet property="delegate" destination="fdY-Kw-gl9" id="yIi-BK-Gdj"/>
+                                </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxu-5e-Aor">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="17"/>
@@ -130,6 +183,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Schedule" image="bell" id="PmT-uQ-Zu3"/>
+                    <connections>
+                        <outlet property="dayNavigator" destination="MkE-Vk-s23" id="aTP-la-pgB"/>
+                        <outlet property="tableView" destination="XeR-e1-UaO" id="IlJ-nD-2XG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2a-GR-GZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
