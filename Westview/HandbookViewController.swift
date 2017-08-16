@@ -10,9 +10,27 @@ import UIKit
 
 class HandbookViewController: LightVC {
 
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let pdfURL = Bundle.main.url(forResource: "handbook", withExtension: "pdf", subdirectory: nil, localization: nil)  {
+            do {
+                let data = try Data(contentsOf: pdfURL)
+                
+                self.webView.load(data, mimeType: "application/pdf", textEncodingName:"", baseURL: pdfURL.deletingLastPathComponent())
+                print("should work")
+                
+            }
+            catch {
+                print("whee errors")
+                // catch errors here
+            }
+            
+        }
+        else {
+            print("dafaq")
+        }
         // Do any additional setup after loading the view.
     }
 

@@ -1,18 +1,29 @@
 PODS:
   - FontAwesomeIconFactory (2.1.1)
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.4.0):
+    - GoogleMaps/Base (= 2.4.0)
   - M13PDFKit (1.0.2):
     - TTOpenInAppActivity
   - TTOpenInAppActivity (1.0)
 
 DEPENDENCIES:
   - FontAwesomeIconFactory
+  - GoogleMaps
+  - GooglePlaces
   - M13PDFKit (= 1.0.2)
 
 SPEC CHECKSUMS:
   FontAwesomeIconFactory: bb9ce26d3dd13044854a82d380023c8e7d3ebf1a
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
   M13PDFKit: bc121a55ccb8ddfcf3982f1a5a8592b9f492cd73
   TTOpenInAppActivity: c2218fe419d03ddd4ffb1f07d52d66e0d213d0d4
 
-PODFILE CHECKSUM: 25d106093e6251726bd8f815185cddb2c2ce8454
+PODFILE CHECKSUM: 80c1c2b6891f7750d05b2290db295859747c3fc6
 
 COCOAPODS: 1.2.1

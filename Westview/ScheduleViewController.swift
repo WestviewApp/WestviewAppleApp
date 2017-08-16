@@ -1,5 +1,5 @@
 //
-//  BellScheduleViewController.swift
+//  ScheduleViewController.swift
 //  Westview App
 //
 //  Created by Ronak Shah on 6/10/17.
@@ -13,14 +13,16 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var dayNavigator: UISegmentedControl!
     
+    @IBOutlet weak var navBar: UINavigationBar!
     var currentDay: String = "Monday"
     var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.separatorStyle = .none
-        navigationController?.navigationBar.tintColor = commonColors.darkGold
-        navigationController?.navigationBar.barTintColor = commonColors.coolBlack
+        self.tableView.tableFooterView = UIView(frame: .zero)
+        self.tableView.separatorStyle = .singleLine
+//        navigationController?.navigationBar.tintColor = commonColors.darkGold
+//        navigationController?.navigationBar.barTintColor = commonColors.coolBlack
         
         // Do any additional setup after loading the view.
         getCurrentDay()
@@ -39,13 +41,20 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
     func getCurrentDay() {
         let day = Date().dayOfWeek()!
         let index = days.index(of: day)
-        if ((index) != nil) {
+        if Date().isFinals() != -1 {
+            self.currentDay = "finals \(Date().isFinals())"
+            self.dayNavigator.selectedSegmentIndex = UISegmentedControlNoSegment
+            self.navBar.topItem?.title! = "Finals Bell Schedule"
+        }
+        else if ((index) != nil) {
             self.dayNavigator.selectedSegmentIndex = index!
             self.currentDay = day
+            self.navBar.topItem?.title! = "Bell Schedule"
         }
     }
     @IBAction func dayChanged(_ sender: UISegmentedControl) {
         self.currentDay = days[sender.selectedSegmentIndex]
+        self.navBar.topItem?.title! = "Bell Schedule"
         tableView.reloadData()
     }
     
@@ -55,9 +64,11 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
         let data = schedules.getSchedule(for: self.currentDay)
         if indexPath.row == 0 {
             cell.setTitle()
+            print("setting title")
         }
         else {
             cell.setContent()
+            print("setting content")
         }
         cell.left.text! = data[indexPath.row].0
         cell.mid.text! = data[indexPath.row].1
@@ -68,13 +79,13 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch currentDay {
         case "Monday", "Friday":
-            return 6
-        case "Tuesday", "Thursday":
             return 7
+        case "Tuesday", "Thursday":
+            return 8
         case "Wednesday", "Friday":
-            return 6
-        case "Finals": //to be implemented
-            return 4
+            return 7
+        case "finals 1", "finals 2":
+            return 5
         default:
             return 0
         }

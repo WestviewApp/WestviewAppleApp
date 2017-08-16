@@ -31,10 +31,29 @@ struct schedules {
             return tueThu
         case "Wednesday":
             return wed
+        case "finals 1":
+            return finals1
+        case "finals 2":
+            return finals2
         default:
             return []
         }
     }
+    static let finals1: [(String, String, String)] = [
+        ("Period", "Start", "End"),
+        ("1", "8:05", "10:05"),
+        ("Lunch", "10:05", "10:29"),
+        ("Passing", "10:29", "10:35"),
+        ("2", "10:35", "12:35")
+    ]
+    static let finals2: [(String, String, String)] = [
+        ("Period", "Start", "End"),
+        ("3", "8:05", "10:05"),
+        ("Lunch", "10:05", "10:29"),
+        ("Passing", "10:29", "10:35"),
+        ("4", "10:35", "12:35")
+    ]
+    
     static let monfri: [(String, String, String)] = [
         ("Period", "Start", "End"),
         ("1", "8:05", "9:33"),
@@ -92,5 +111,11 @@ extension Date {
         dateFormatter.dateFormat = "EEEE"
         return dateFormatter.string(from: self).capitalized
         // or use capitalized(with: locale) if you want
+    }
+    
+    // returns 1 for finals day type 1-2, 2 for finals day type 3-4, or -1 for no finals
+    func isFinals() -> Int {
+        
+        return 2
     }
 }
