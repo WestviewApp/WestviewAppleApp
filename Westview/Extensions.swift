@@ -115,7 +115,17 @@ extension Date {
     
     // returns 1 for finals day type 1-2, 2 for finals day type 3-4, or -1 for no finals
     func isFinals() -> Int {
-        
-        return 2
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/dd"
+        let mmdd = dateFormatter.string(from: self)
+        let finals1 = ["10/25", "01/18", "03/29", "06/13"]
+        let finals2 = ["10/26", "01/19", "03/30", "06/14"]
+        if let _ = finals1.index(of: mmdd) {
+            return 1
+        }
+        else if let _ = finals2.index(of: mmdd) {
+            return 2
+        }
+        return -1
     }
 }

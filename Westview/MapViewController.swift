@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import MapKit
 
-class MapViewController: LightVC {
+class MapViewController: LightVC, MKMapViewDelegate {
 
+    @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let span = MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004)
+        let region = MKCoordinateRegion(center: CLLocationCoordinate2DMake(32.967277,  -117.149097), span: span)
+        self.mapView.setRegion(region, animated: false)
+        self.mapView.showsUserLocation = true
+        self.mapView.mapType = MKMapType.satellite
         // Do any additional setup after loading the view.
     }
 

@@ -33,6 +33,7 @@
 		A62DD7EF1F4255E90062CAD9 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A62DD7EE1F4255E90062CAD9 /* fontawesome-webfont.ttf */; };
 		A6836ADA1F44267E003739CC /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6836AD91F44267E003739CC /* ScheduleTableViewCell.swift */; };
 		A6A6A9B51F44EA9C00D7668A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6A9B41F44EA9C00D7668A /* MasterViewController.swift */; };
+		A6A6A9B81F4558B600D7668A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A6A9B71F4558B600D7668A /* MapKit.framework */; };
 		A6C15B441F42B92D00890CE7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C15B431F42B92D00890CE7 /* CardView.swift */; };
 		A6C15B491F42BD3500890CE7 /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C15B481F42BD3500890CE7 /* AnnouncementTableViewCell.swift */; };
 		A6EDA2551F32C07700A7ADA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDA2541F32C07700A7ADA3 /* AppDelegate.swift */; };
@@ -95,6 +96,7 @@
 		A6836AD91F44267E003739CC /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
 		A6A6A9B41F44EA9C00D7668A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		A6A6A9B61F44EC9700D7668A /* handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = handbook.pdf; sourceTree = "<group>"; };
+		A6A6A9B71F4558B600D7668A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A6C15B431F42B92D00890CE7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A6C15B481F42BD3500890CE7 /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
 		A6EDA2511F32C07700A7ADA3 /* Westview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westview.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A6A9B81F4558B600D7668A /* MapKit.framework in Frameworks */,
 				6FAD1E4D3C383BF49B3CCF94 /* Pods_Westview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +161,7 @@
 		9B5E1CD19F940920702BF8F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6A6A9B71F4558B600D7668A /* MapKit.framework */,
 				7894C9EFB90DC212413D9C57 /* Pods_Westview.framework */,
 				2DF8CDD006B1FDD583DC0578 /* Pods_WestviewTests.framework */,
 				737C9823A26DF637942171E7 /* Pods_WestviewUITests.framework */,
