@@ -15,25 +15,9 @@ class HandbookViewController: LightVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //none of the below code works
-        if let pdfURL = URL(string: Bundle.main.path(forResource: "handbook", ofType: "pdf")!)  {
-            do {
-                print("\n\n\n\npdf url: \(pdfURL) \n\n\n\n")
-                let data = try Data(contentsOf: pdfURL)
-                
-                self.webView.load(data, mimeType: "application/pdf", textEncodingName:"", baseURL: pdfURL.deletingLastPathComponent())
-                print("should work")
-                
-            }
-            catch {
-                print("whee errors")
-                // catch errors here
-            }
-            
-        }
-        else {
-            print("dafaq")
-        }
+        
+        self.webView.loadRequest(URLRequest(url: URL(string: Bundle.main.path(forResource: "handbook", ofType: "pdf")!)!))
+        
         // Do any additional setup after loading the view.
     }
 

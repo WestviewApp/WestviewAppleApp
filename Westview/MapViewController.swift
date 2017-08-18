@@ -7,27 +7,24 @@
 //
 
 import UIKit
-import MapKit
+//import MapKit
+//import GoogleMaps
 
-class MapViewController: LightVC, MKMapViewDelegate {
+class MapViewController: LightVC { //}, GMSMapViewDelegate,CLLocationManagerDelegate {
 
-    @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var webView: UIWebView!
+//    @IBOutlet weak var mapView: GMSMapView!
+//    var locationManager = CLLocationManager()
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let span = MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004)
-        let region = MKCoordinateRegion(center: CLLocationCoordinate2DMake(32.967277,  -117.149097), span: span)
-        self.mapView.setRegion(region, animated: false)
-        self.mapView.showsUserLocation = true
-        self.mapView.mapType = MKMapType.satellite
-        // Do any additional setup after loading the view.
-    }
+//        self.locationManager.startUpdatingLocation()
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.webView.loadRequest(URLRequest(url: URL(string: "https://www.google.com/maps/d/embed?mid=1UuI1sahr6xefo4F-uFgtxNIS_yw")!))
     }
     
-
     /*
     // MARK: - Navigation
 

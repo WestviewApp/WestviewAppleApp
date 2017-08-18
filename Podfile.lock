@@ -1,5 +1,5 @@
 PODS:
-  - FontAwesomeIconFactory (2.1.1)
+  - Alamofire (4.2.0)
   - GoogleMaps (2.4.0):
     - GoogleMaps/Maps (= 2.4.0)
   - GoogleMaps/Base (2.4.0)
@@ -7,23 +7,30 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (2.4.0):
     - GoogleMaps/Base (= 2.4.0)
-  - M13PDFKit (1.0.2):
-    - TTOpenInAppActivity
-  - TTOpenInAppActivity (1.0)
+  - Kanna (2.0.0)
 
 DEPENDENCIES:
-  - FontAwesomeIconFactory
+  - Alamofire (~> 4.2.0)
   - GoogleMaps
   - GooglePlaces
-  - M13PDFKit (= 1.0.2)
+  - Kanna (from `https://github.com/tid-kijyun/Kanna.git`, branch `swift3.0`)
+
+EXTERNAL SOURCES:
+  Kanna:
+    :branch: swift3.0
+    :git: https://github.com/tid-kijyun/Kanna.git
+
+CHECKOUT OPTIONS:
+  Kanna:
+    :commit: 109249451c32e14dac541bfbfeaa91b4dcb47a87
+    :git: https://github.com/tid-kijyun/Kanna.git
 
 SPEC CHECKSUMS:
-  FontAwesomeIconFactory: bb9ce26d3dd13044854a82d380023c8e7d3ebf1a
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
   GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
   GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
-  M13PDFKit: bc121a55ccb8ddfcf3982f1a5a8592b9f492cd73
-  TTOpenInAppActivity: c2218fe419d03ddd4ffb1f07d52d66e0d213d0d4
+  Kanna: 8d60d86a3580f7dee732811e5163a5e3e41a32a7
 
-PODFILE CHECKSUM: 80c1c2b6891f7750d05b2290db295859747c3fc6
+PODFILE CHECKSUM: cc2063b99003e84455330f4b60fd58d214c66a0d
 
 COCOAPODS: 1.2.1
