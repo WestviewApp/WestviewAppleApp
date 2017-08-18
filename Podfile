@@ -6,10 +6,11 @@ target 'Westview' do
   use_frameworks!
 
   # Pods for Westview
-  pod 'FontAwesomeIconFactory'
-  pod 'M13PDFKit', '1.0.2'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod 'Alamofire', '~> 4.2.0'
+  pod 'Kanna', git: 'https://github.com/tid-kijyun/Kanna.git', branch: 'swift3.0'
+
   target 'WestviewTests' do
     inherit! :search_paths
     # Pods for testing

@@ -14,8 +14,11 @@ class HandbookViewController: LightVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let pdfURL = Bundle.main.url(forResource: "handbook", withExtension: "pdf", subdirectory: nil, localization: nil)  {
+        
+        //none of the below code works
+        if let pdfURL = URL(string: Bundle.main.path(forResource: "handbook", ofType: "pdf")!)  {
             do {
+                print("\n\n\n\npdf url: \(pdfURL) \n\n\n\n")
                 let data = try Data(contentsOf: pdfURL)
                 
                 self.webView.load(data, mimeType: "application/pdf", textEncodingName:"", baseURL: pdfURL.deletingLastPathComponent())

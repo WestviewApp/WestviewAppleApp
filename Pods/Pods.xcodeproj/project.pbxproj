@@ -7,357 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009F7DADD5C6A77979868631ED1589C1 /* PDFKBasicPDFViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBB849F424DADB19F6C9D5FF063E4D9 /* PDFKBasicPDFViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04C6345C4EA91192CA9402EDF5F6960E /* Bookmark.psd in Resources */ = {isa = PBXBuildFile; fileRef = AD5918BD3E37FFD9AD62297C3D260478 /* Bookmark.psd */; };
-		060D1A0E72C004CB512D760C50A69EB5 /* PageList@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1368CD0989412DFF712542B0871F9E0B /* PageList@3x.png */; };
-		096DF19C7322C0A4AA7A0B31CCD3FA6F /* Bookmarked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F582EFBA9B98015F7D9B82025657D43E /* Bookmarked@3x.png */; };
-		09E105AFFA1C89E6C9E475604A51AF58 /* FontAwesomeIconFactory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEC84C030F5668156B3ABB3E36E9DF5 /* FontAwesomeIconFactory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A61DA50ABB497C35FC193DD168AE4C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA543B9A55723865B36C63600DFD6B91 /* Foundation.framework */; };
 		0DA0A5994325A5EC7ED0DC460F172C09 /* Pods-WestviewUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40019CCF9B34D5E8DB52B3C256CC0572 /* Pods-WestviewUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E01FACEA68B6F736D3D1E900686B32E /* Bookmarked.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0CECCA4964B747FF510CCBD37871FF3D /* Bookmarked.psd */; };
-		0E95E436FE5BBB3F3E65825B3219DEAB /* NIKFontAwesomeIconFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CD390CAF54402A0EAE8AA199E4D263 /* NIKFontAwesomeIconFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		103C41FB0D7ECD4259EC64A35A3CA977 /* Bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 69AACFB35D52AB40D22403195343BF0F /* Bookmark.png */; };
-		134B194CD45033C4ADB849654293D793 /* PDFKThumbFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4A5569B44AA15BBEFFF18A6811B82 /* PDFKThumbFetcher.m */; };
-		17B267B27CA5A3A145ABB5E2811B5E26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D348BE6210704450BBBAB1666C01BA4 /* UIKit.framework */; };
-		1DCB17D4CC007C6A665CC9061E7D1B62 /* Thumbs@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = C51707EAF30531B8183EFBF950737B03 /* Thumbs@2x.psd */; };
-		1E04155577D5E6966C1B3532F0E02FF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA543B9A55723865B36C63600DFD6B91 /* Foundation.framework */; };
-		1E6A63FCFD77D5BD896CF15D1B3EBFDA /* TTOpenInAppActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC00B1DE7BC10BF1FFD5F25A2F047D1 /* TTOpenInAppActivity.png */; };
-		249D9FF704A6DD743506F2C668EEE7E1 /* NIKFontAwesomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874FFC21D9F13829554D83C029A572A /* NIKFontAwesomeButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2610474EF4784D53428CE407822ADF24 /* Bookmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 673C5694AC45CC5B7A82D6F7E0096C9F /* Bookmark@3x.png */; };
-		2C2B21268644AA6E2FFD102FF625829C /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 502D7005F44135593F86C697EFFF65BA /* CGPDFDocument.m */; };
-		2C5DA65BF16253AC720FE7EA008C0A00 /* NIKFontAwesomePathRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3E9F5A14C0071C60B0863301D186D /* NIKFontAwesomePathRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2C8B4236484C244F711D4FF5D33CF67C /* Bookmarked.png in Resources */ = {isa = PBXBuildFile; fileRef = 691B9C88D4F858BD0C1BBBFEBEE6215F /* Bookmarked.png */; };
-		2D10447E5D397FCC58EB91D451EBD95B /* Pods-Westview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9D0A4D6DCC53DE99CD4DFDB3EEBA1 /* Pods-Westview-dummy.m */; };
-		2D3D389EA58982A1452E3304DC97C66B /* PDFKDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6A8E63204FCF99ADE8F09F7FC28F86 /* PDFKDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34180612C8330003612981FE48AAD45E /* NIKFontAwesomeTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F14E5469A554814E88AE36739D70BBF /* NIKFontAwesomeTabBarItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3782CB4EF2B8777DC8E7C82043380416 /* NIKFontAwesomeIconTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BDA0F41FDFBA9C77A694C7611F78D3 /* NIKFontAwesomeIconTraits.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3788F2C3035A3BF423D83B6E42338310 /* TTOpenInAppActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 538310662D31F6D30F08DBFCBB061CC5 /* TTOpenInAppActivity-dummy.m */; };
-		390B03204973017D281D0262C71D55FB /* PDFKBasicPDFViewerSinglePageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F7E7103EAD5C3646802B3A9C986747 /* PDFKBasicPDFViewerSinglePageCollectionView.m */; };
-		3A20D7E3AA0B27A81579F80BA5535434 /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B44B5BA47A088BC211F6055B0B118F /* CGPDFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AB28B034FF9BE855B65E160A6F06779 /* PageList.psd in Resources */ = {isa = PBXBuildFile; fileRef = 6DECD052A0750A6E36E74D7765C44CD4 /* PageList.psd */; };
-		3C65F57D8C4BF643B80FF883B1A70F6B /* NIKFontAwesomePathRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6C5B7D7652ACDAAEDF82A339704D15 /* NIKFontAwesomePathRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4158ECAFFDCDFD4051AF0E16CCE551AB /* M13PDFKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4AA9EBF6B5F93DE67AC3E4C7CE09401F /* M13PDFKitResources.bundle */; };
-		427E292E53A55D1B7607620CD43A6910 /* Thumbs.psd in Resources */ = {isa = PBXBuildFile; fileRef = 4A7263E3A8CC0E8CCE3DBDA1E5267F18 /* Thumbs.psd */; };
-		430D535E45440D62595314CA226A88F4 /* PDFKThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0002938903ACA4777CD90201811EFF8A /* PDFKThumbRequest.m */; };
-		45693C071F4BCE10F92F2C72C077C017 /* NIKFontAwesomeIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E144584A8E08BA18FAE32DE17959FE14 /* NIKFontAwesomeIconFactory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		496681EB5779132534D60420A1F023B0 /* PDFKThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7906B017601C7221A175DFF0D4E5E /* PDFKThumbView.m */; };
-		4CF7CF6EA6EA3ED137DC6ADFDB9BEA28 /* NIKFontAwesomeIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E37F65D7021E83FF658ED6B5DFCDDB3 /* NIKFontAwesomeIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		506861039E9BB3AA0E3C90A8F38F125A /* NIKFontAwesomeIconTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BC2A66490BE3AB9BD3AE9E115DCDF3 /* NIKFontAwesomeIconTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		509055AEDB8A418F4B8B96BFA91713B0 /* PDFKThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7BEF1AD32157C45ED01722E6D04224 /* PDFKThumbView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54CA9DAE9DF1976EE14DC02BA2A5C302 /* PageList.png in Resources */ = {isa = PBXBuildFile; fileRef = A2739AFF31EC79729A2710549FA73F04 /* PageList.png */; };
-		560A0832190341D2347B81702539427E /* NIKFontAwesomeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9533CCEDD46C4D2EAABA645E8F0E442 /* NIKFontAwesomeImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5EE7FC9C6663638A106748FA66B90973 /* M13PDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5588AEF0B0B729D8FF5A11D3F408A96 /* M13PDFKit-dummy.m */; };
+		0EF67AE494DDBB8941FB8DB7AB6A54CD /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC4AB13CE190D8EC25FDD6583DBB444 /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB765914570419BC4ADB95C731AB7ADD /* Timeline.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1412420E3C411B15E3B49052E4D65E /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB1E26736A31A7C26B7EFF89FB9F203 /* Pods-Westview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9D0A4D6DCC53DE99CD4DFDB3EEBA1 /* Pods-Westview-dummy.m */; };
+		33407F97A917787075A03F761CACD9D7 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B884CBBC80B98DACD5E1B4FCD5AE1C /* CSS.swift */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D45B1D7ADD3DD8681D063246D0FB3 /* TaskDelegate.swift */; };
+		38963A443753B582423740DDF9A4EB67 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92437E460513A2989A57784792727A23 /* libxmlHTMLNode.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D7427711264A92437ADA7854C62B4 /* Request.swift */; };
+		5E1CA1B387CCAFC863C77723916E1DE9 /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F529C5A6C06819B7DEA826C6331325 /* Kanna-dummy.m */; };
+		6111BEDDF4D12D95C9B1C8932C938493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D517692A93C0B3403BC7A41D971DF63 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEA4B652D18D329E3DA3D559C10B14 /* ServerTrustPolicy.swift */; };
 		64462F42909226EE6D414C253B6691B9 /* Pods-WestviewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D544F588A06397919465958C0C304 /* Pods-WestviewTests-dummy.m */; };
-		64CB482ECF70626BD0D160E9C5097FDF /* Bookmark@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 58EA691ECADE38FC0FFEEDCC1EA40573 /* Bookmark@2x.psd */; };
-		6588DC8F1C4B1AB3E9A8F6EDD938AD33 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9383EE941A74A7FE78CD4FF06408E9E1 /* CoreText.framework */; };
-		6A47F3969AE049E7773633B8EFF6E25F /* NIKFontAwesomeIconFactory+OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D1E63AEFB5EC8A2590CE65B4189EC7 /* NIKFontAwesomeIconFactory+OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		733B0DFF1413294C00010B55FE419EAC /* Bookmark@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 7E5050686A68B87C6BD40E0E5CEBE9EC /* Bookmark@3x.psd */; };
-		79B36D385C2AF967D430A5F83322612A /* Bookmarked@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = ACD480EBA2E8658ED06CAC8724F95496 /* Bookmarked@3x.psd */; };
-		7BDC96375FB2BF7F8F34F6B532CC2371 /* PageList@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 9DBFBF6F0D120F50E3384E0A2F3F6888 /* PageList@3x.psd */; };
-		7ECCCFCC1661597FB89736082DB5BB85 /* PageList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD449F12A9B6DDD6BC21E161A3144AAC /* PageList@2x.png */; };
-		7F7ADEE7307A970A46454F884C35D063 /* PDFKPageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 647F2F5EDA6292EEE5871FDC0FA837D0 /* PDFKPageContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80A9D9B9A70679D5BDE4D528687FD86C /* TTOpenInAppActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E55C55B365ED614AA945E8B2C94948F /* TTOpenInAppActivity.framework */; };
-		82FE731BBB8D60DDB4A7F246F178B881 /* TTOpenInAppActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 175324A1C2FDB0F80D3D1437BC5DF8AA /* TTOpenInAppActivity@2x.png */; };
-		82FF49F3E7A0384217FD46D6214BC695 /* NIKFontAwesomeIconFactory+iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AE2AA217928422DB4C95601B504D5C /* NIKFontAwesomeIconFactory+iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83B0AF28505790275EBEE023C083046A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C067717AC3595F9BDFD1B1B43305BDD /* CoreGraphics.framework */; };
-		854522D0972B6218BD35EF44E4C12B60 /* PDFKThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5478886A710838A6C2533BED254F465A /* PDFKThumbCache.m */; };
-		865BF833092734F990BF6663D4179EC3 /* PDFKThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 62807E02827E0EB3E1727A48C3D6935D /* PDFKThumbQueue.m */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		750994261F13A30B745AB38787E7EF21 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C92CF115EAF6597467354D0ECDC587C /* Kanna.swift */; };
+		7963E2B3225A300529604A64A943FA36 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2B77EA2783CD7900B67B571A6E5B2 /* libxmlHTMLDocument.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6DAE9485D1C77E891E55A0B453705 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA7FEB3E86A145126FA10C282A6A1B /* Result.swift */; };
 		8753CFC792A283EA931DA1A52C2E7843 /* Pods-WestviewTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5624CBD8EA1E27BAD435A9CD1BE711C8 /* Pods-WestviewTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		883008D38BDB61CFC1E7E09F79FD333B /* PDFKThumbRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBB1A0D1EDC72405D938D96AD325DC /* PDFKThumbRenderer.m */; };
-		8996B411E0C0BB4D625BF47DA0DD43FC /* PDFKBasicPDFViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF543EE21077425E64FF2D93C6E326E /* PDFKBasicPDFViewer.m */; };
-		89EF51A086EE46FE5EBAF7318D59D5B0 /* Bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA4E30C8259FA25B00C341589DFD7F9 /* Bookmark@2x.png */; };
-		8D6C20725F0ADB522AE81254A5580BA7 /* PDFKPageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DED8C2C2BD5ECBE9D4F269FFFDB726 /* PDFKPageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D99066E1BC1725B731527B6BF200FB8 /* PDFKPageContentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD17CEFA11987A920C8CA4A8F71C27 /* PDFKPageContentLayer.m */; };
-		8E4CC63D235B18E3EFA0D15C4609AF52 /* PDFKBasicPDFViewerThumbsCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8362CBA13EBB9A86C42E9863989F85D8 /* PDFKBasicPDFViewerThumbsCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E8B727C0F0009356450B831EC61C1B3 /* PDFKPageScrubber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE30B3A8B58070FB62EEC60ECDB040 /* PDFKPageScrubber.m */; };
-		911A4569F0D4745FAB35C0217FD57D87 /* Thumbs@3x.psd in Resources */ = {isa = PBXBuildFile; fileRef = D1AE50AC2DD197C2653E9B8AC5D123A5 /* Thumbs@3x.psd */; };
-		911C80B75D3A75330DEA4DBEF65A843A /* PDFKPageScrubber.h in Headers */ = {isa = PBXBuildFile; fileRef = 074C70FD23D48C40E81C20D8D261083F /* PDFKPageScrubber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9329409371F15E11FCD3F015A1EC0343 /* PDFKThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2EF6A17B9A04D10D564B109686A5C9 /* PDFKThumbQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9491C040850DEDE77193983521D20184 /* Pods-Westview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5867FCEE37EEE0383084B1991E14E35 /* Pods-Westview-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		971FC72E2A616D4E2F81E17C3BD3493E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D348BE6210704450BBBAB1666C01BA4 /* UIKit.framework */; };
-		98BE21D2035C136BBA6E7EC5FEFF23CD /* PDFKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D078ACB7BA5D9D59ED02CC6BD8485A71 /* PDFKDocument.m */; };
-		997258325E42E3D68F7E9A5EB45BBFB3 /* Bookmarked@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = DB450D2EE8120ED53FC72573CB101377 /* Bookmarked@2x.psd */; };
-		A3E994C8D39F0C5426CC372A13F3A0BC /* TTOpenInAppActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11829C22369A038E1D8AC264508A36F /* TTOpenInAppActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8421B4508A8E47863D895736C512946 /* PDFKPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A42C3E2CE12FD07D470B2954EE04050 /* PDFKPageContentView.m */; };
-		A855E9024E202E3E6231E762ADFC4DC4 /* PDFKThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 00AD96CA6BBF0A229AD8F88F3CE9CF90 /* PDFKThumbRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9940A861BB46673C37C4B6073C06E6F /* NIKFontAwesomePathFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA3B551F39078DBDEA01F08243B7E25 /* NIKFontAwesomePathFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9E4416B6EFA65F954C28DA234342A37 /* NIKFontAwesomeTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 94712FCF0432F78465AC14AC9630C4E3 /* NIKFontAwesomeTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF375949D23DE7E1A884ACD80D34C6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA543B9A55723865B36C63600DFD6B91 /* Foundation.framework */; };
-		B0747E072C73B20B0ACDDF57C094A477 /* PDFKBasicPDFViewerSinglePageCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CC75A7035F076B01B0A4997F36905C /* PDFKBasicPDFViewerSinglePageCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B113C0D3CB532AF39FD73F097DB390DA /* Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A89860C8039D85A160D72B481C63AE2 /* Thumbs@2x.png */; };
-		B1C16596761D85D0DD3B439AE91F79A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C067717AC3595F9BDFD1B1B43305BDD /* CoreGraphics.framework */; };
-		B26910677CA8CC9E81F676ABEE57FFA4 /* PDFKThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB6711B2AAC4F3AA5CEC9B945A15A90 /* PDFKThumbCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B66F2E71FAC85E3AB5108E8AF1A6965C /* NIKFontAwesomePathFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6362384D9EFB53902F8DDAA2718B893C /* NIKFontAwesomePathFactory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B78FF5465584527B2785C4E8E6DF9294 /* NIKFontAwesomeImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 400F77A646F7BB9AC370FB2F899AA321 /* NIKFontAwesomeImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C307940EEA58344CB3956092A1E484CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA543B9A55723865B36C63600DFD6B91 /* Foundation.framework */; };
-		C3BE2A138DC99C21828CB35A208C44CC /* FontAwesomeIconFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F526DA294DDF5C17403049CADA40F8 /* FontAwesomeIconFactory-dummy.m */; };
-		C50838E12575BB44F989CD84B46C3749 /* NIKFontAwesomeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9F930FD36C66CB2AB6C00375B9757F /* NIKFontAwesomeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C588352D205115A9A7AAB716E450D570 /* TTOpenInAppActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F06B6903A3CCA7BAB7CC4E0C6577BD58 /* TTOpenInAppActivity.m */; };
-		C6E2345E9C5119A63C2CDD1091B034F8 /* Thumbs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52497B9BEC537A52212BE98655B355CD /* Thumbs@3x.png */; };
-		C7964E93336104D7EB83BB89C4EA77DE /* PDFKBasicPDFViewerThumbsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E072EB4A7B414ED3CBC57F6C1BFF38 /* PDFKBasicPDFViewerThumbsCollectionView.m */; };
-		CB09A1C045F2D23F507FD2F2275DAE7A /* Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 97A7DDE19B90560848DB0DA472807F53 /* Thumbs.png */; };
-		CD97BF8D922315400D0E773049D95FBC /* PDFKPageContentLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DD35C2928A37FCD2F2391D2162B498 /* PDFKPageContentLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFD2E990C1C5EFA734727AF0BA00F142 /* PDFKThumbRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = C237E9E013887824BFA8D76BC7D21941 /* PDFKThumbRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D34617A8F28F139CC3C3D1A24C098C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA543B9A55723865B36C63600DFD6B91 /* Foundation.framework */; };
-		D3647CBC44DF7AD5B3AF60BB3370570E /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB98B1EE3F2A164C26111DC055528EAC /* FontAwesome.otf */; };
-		D8266155E571CAC4ECA88D3485CA4301 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE194279A79388869B20105704D4031C /* ImageIO.framework */; };
-		D8B04DB2B9DCE3EE18E4F4A1B6415E86 /* PageList@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = DB620493FC90248B76C886AAD0118C69 /* PageList@2x.psd */; };
-		D979FA91CF7F0B63516DB79D191B19A7 /* TTOpenInAppActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = B587D41984333346CDE5F98C4BF36F98 /* TTOpenInAppActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9BA461FEF5D8E0C9C25C58400AB4427 /* TTOpenInAppActivity7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEE6CAEC6B3F226A0172CDC600982B7 /* TTOpenInAppActivity7@2x.png */; };
-		DDE46BE2A39F853CCDBFE25D835D0D7F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ED29F1B17B7C20D51859B897D14AC0 /* MobileCoreServices.framework */; };
-		DFBD4FBC7F5BBC2D300C20E59884B389 /* M13PDFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5E6AF9842080730CB7ADD6171C96F9 /* M13PDFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E03347522CDFD5D1021D07B67987ABCA /* FontAwesomeIconFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DE9F1ADAFA20AF21695A4DDBED5612 /* FontAwesomeIconFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E94FE93593C6FAE546B461337B65DF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA543B9A55723865B36C63600DFD6B91 /* Foundation.framework */; };
-		E9EADA0457CC0F2833FB5F076EAA283F /* PDFKPageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455A0AEE368FB8F9747062BF139BB39 /* PDFKPageContent.m */; };
-		F5DC07A071881C9DF622A5FD5AB3BE5C /* TTOpenInAppActivity7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCD00727580B818CC9AF5029C7EEB5 /* TTOpenInAppActivity7.png */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C80CCC7860C35DEFFED1DACBD8591E /* AFError.swift */; };
+		A1541CA430CBF7207022E26C5D1DEFB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B743A9082D9B6E57C7B0199143D5B5 /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DED1523170A792349B03E79917F3 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35B91DEAC7A1FB7D3B67CB8CAAE7EC /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E785A47B23464F76A4C8276D29E0BCD /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E10E464620BF7157231A05E37B002A /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F43941B58CD10709EE75C8A2A508E6 /* ParameterEncoding.swift */; };
+		C307940EEA58344CB3956092A1E484CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376F12E14A13F92E89B47FC7740B78A /* Response.swift */; };
+		E7634EA3477C315974697BD9D78C81DB /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F9A10125A4C15E2293C6B9DC9FE16 /* libxmlParserOption.swift */; };
+		E94FE93593C6FAE546B461337B65DF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F9659CA8B903229AD705CD25344B8 /* Notifications.swift */; };
 		F6256609FF5A39072D8E62CE79D25C1F /* Pods-WestviewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3228522B3F0D8161DE4DD06CE9062 /* Pods-WestviewUITests-dummy.m */; };
-		F65138DA8C3F65EE8ABCDC324F8D0CC6 /* PDFKThumbFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B10BB2A9DD9BE0680FF6595F1C470B /* PDFKThumbFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F69ABC2FDB3498DD575A6DD4B729D6FD /* Bookmarked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E44653441A9CEAAD1DA94C9FA4F33D /* Bookmarked@2x.png */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6761A807B758AB64D2E4C30B909BB1AE /* ResponseSerialization.swift */; };
+		F71349831C39DF0E4B99308593EEA785 /* Pods-Westview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5867FCEE37EEE0383084B1991E14E35 /* Pods-Westview-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A1B395542B2BE280A25A39D39374D9 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07BCC10C149EE82A456CA195001896AB /* PBXContainerItemProxy */ = {
+		36182CE26531FEF9FE25458744476276 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7370040C04EADB101B663AD4EDB88FC;
-			remoteInfo = M13PDFKit;
+			remoteGlobalIDString = C8F7054D982A7A5AD7861F725CFED7E6;
+			remoteInfo = Kanna;
 		};
-		649469FF5C5E43D4E0DF4A322E353F29 /* PBXContainerItemProxy */ = {
+		3EE607141E6CB223C0C1F2B2ABA19E1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 594013F336E9839810CAB9013859422A;
-			remoteInfo = TTOpenInAppActivity;
-		};
-		7E12F4C956409959FA5956EFEF3071E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 594013F336E9839810CAB9013859422A;
-			remoteInfo = TTOpenInAppActivity;
-		};
-		BB0D5E783F44DA4B1EC4F8ACB233F675 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34E2FE02F69845D7E81F53D6DF22DC2E;
-			remoteInfo = FontAwesomeIconFactory;
-		};
-		DEA0D2F2F3810FBB8C16D48C4D82CE60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA99DDAC73B1ED8E4B1629164038D9C6;
-			remoteInfo = "M13PDFKit-M13PDFKitResources";
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0002938903ACA4777CD90201811EFF8A /* PDFKThumbRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbRequest.m; path = Classes/Thumbs/PDFKThumbRequest.m; sourceTree = "<group>"; };
-		00AD96CA6BBF0A229AD8F88F3CE9CF90 /* PDFKThumbRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbRequest.h; path = Classes/Thumbs/PDFKThumbRequest.h; sourceTree = "<group>"; };
-		03D1E63AEFB5EC8A2590CE65B4189EC7 /* NIKFontAwesomeIconFactory+OSX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NIKFontAwesomeIconFactory+OSX.h"; path = "FontAwesomeIconFactory/NIKFontAwesomeIconFactory+OSX.h"; sourceTree = "<group>"; };
-		03EBEFF34A397B145754EE729FD7C697 /* FontAwesomeIconFactory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesomeIconFactory.modulemap; sourceTree = "<group>"; };
-		06BC2A66490BE3AB9BD3AE9E115DCDF3 /* NIKFontAwesomeIconTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconTypes.h; path = FontAwesomeIconFactory/NIKFontAwesomeIconTypes.h; sourceTree = "<group>"; };
-		074C70FD23D48C40E81C20D8D261083F /* PDFKPageScrubber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageScrubber.h; path = Classes/View/PDFKPageScrubber.h; sourceTree = "<group>"; };
-		0910412B5C643E7F3CB00EE3A02D65F4 /* ResourceBundle-M13PDFKitResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-M13PDFKitResources-Info.plist"; sourceTree = "<group>"; };
-		0CECCA4964B747FF510CCBD37871FF3D /* Bookmarked.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = Bookmarked.psd; path = Resources/Bookmarked.psd; sourceTree = "<group>"; };
+		07B884CBBC80B98DACD5E1B4FCD5AE1C /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/CSS.swift; sourceTree = "<group>"; };
+		0D472045B20081F8A00F043C9C34D9D8 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		0D4E86A89C513E229DB59A189F22E9CE /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		0EE3228522B3F0D8161DE4DD06CE9062 /* Pods-WestviewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WestviewUITests-dummy.m"; sourceTree = "<group>"; };
-		1368CD0989412DFF712542B0871F9E0B /* PageList@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PageList@3x.png"; path = "Resources/PageList@3x.png"; sourceTree = "<group>"; };
+		16DCF27D5E0E8D12DF1DACF568ACCEA7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		172561519CBB7F36DE7FAA60C7B1BABC /* Pods-WestviewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WestviewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		175324A1C2FDB0F80D3D1437BC5DF8AA /* TTOpenInAppActivity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "TTOpenInAppActivity@2x.png"; path = "TTOpenInAppActivity/TTOpenInAppActivity@2x.png"; sourceTree = "<group>"; };
-		176993FD2CD37CA6C49F487DEA55BFDA /* Pods_WestviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WestviewTests.framework; path = "Pods-WestviewTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1874FFC21D9F13829554D83C029A572A /* NIKFontAwesomeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeButton.m; path = FontAwesomeIconFactory/iOS/NIKFontAwesomeButton.m; sourceTree = "<group>"; };
-		1A4AA4916A0942771E07229E62D4522C /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		1BE6B17772A5383BAF6E25FAE579145F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D618F605E0F193A279A967EEBB3BC01 /* Pods-WestviewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WestviewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1D8AB4AE2CCF3501D8AE32236697DC62 /* Pods-Westview-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Westview-resources.sh"; sourceTree = "<group>"; };
-		1F82D2E333CC59B5CE672C812D79BCCA /* Pods_Westview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Westview.framework; path = "Pods-Westview.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		217616B578F491F8B8D04699977BEAB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214D45B1D7ADD3DD8681D063246D0FB3 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		22E62E252ED115491C8695248DCB2B35 /* Pods-WestviewTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WestviewTests-resources.sh"; sourceTree = "<group>"; };
-		235F8282774DAEB548D59BC5A06E9B45 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		26CB23C626D573D74E7121551AEE9030 /* Pods-WestviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WestviewUITests.release.xcconfig"; sourceTree = "<group>"; };
-		26DE9F1ADAFA20AF21695A4DDBED5612 /* FontAwesomeIconFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeIconFactory.h; path = FontAwesomeIconFactory/FontAwesomeIconFactory.h; sourceTree = "<group>"; };
-		29E072EB4A7B414ED3CBC57F6C1BFF38 /* PDFKBasicPDFViewerThumbsCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKBasicPDFViewerThumbsCollectionView.m; path = Classes/View/PDFKBasicPDFViewerThumbsCollectionView.m; sourceTree = "<group>"; };
-		2DBB849F424DADB19F6C9D5FF063E4D9 /* PDFKBasicPDFViewer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKBasicPDFViewer.h; path = Classes/View/PDFKBasicPDFViewer.h; sourceTree = "<group>"; };
-		2EF543EE21077425E64FF2D93C6E326E /* PDFKBasicPDFViewer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKBasicPDFViewer.m; path = Classes/View/PDFKBasicPDFViewer.m; sourceTree = "<group>"; };
-		2F0D7FB71854FA9DF0020BC4F6257C64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3071495209254DA35FFAE12133ED00D0 /* TTOpenInAppActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTOpenInAppActivity.xcconfig; sourceTree = "<group>"; };
-		3289940BF18B902299BEB5C97095972E /* FontAwesomeIconFactory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeIconFactory.xcconfig; sourceTree = "<group>"; };
-		365B44E7DE974A1176FFCE7D834480F8 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		38FFA2977D6BFDFFD72B6733D7C9E0D8 /* M13PDFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = M13PDFKit.modulemap; sourceTree = "<group>"; };
+		2B35B91DEAC7A1FB7D3B67CB8CAAE7EC /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		379D106CE18C3E0CF8D7F829D56A5413 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A1B395542B2BE280A25A39D39374D9 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		3A30B5A3B835EB69871C9737882D39F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CB9E92997BBE7D48D2C1BA2E7067568 /* Pods-WestviewTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WestviewTests-frameworks.sh"; sourceTree = "<group>"; };
-		3D348BE6210704450BBBAB1666C01BA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		3E37F65D7021E83FF658ED6B5DFCDDB3 /* NIKFontAwesomeIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIcon.h; path = FontAwesomeIconFactory/NIKFontAwesomeIcon.h; sourceTree = "<group>"; };
-		3E55C55B365ED614AA945E8B2C94948F /* TTOpenInAppActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTOpenInAppActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E5E6AF9842080730CB7ADD6171C96F9 /* M13PDFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13PDFKit-umbrella.h"; sourceTree = "<group>"; };
 		40019CCF9B34D5E8DB52B3C256CC0572 /* Pods-WestviewUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WestviewUITests-umbrella.h"; sourceTree = "<group>"; };
-		400F77A646F7BB9AC370FB2F899AA321 /* NIKFontAwesomeImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeImageView.h; path = FontAwesomeIconFactory/iOS/NIKFontAwesomeImageView.h; sourceTree = "<group>"; };
+		421E7AF2A862514857F1A6713466F73F /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		43C8351A8D42053F52B9C7297F30D552 /* Pods-Westview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Westview.modulemap"; sourceTree = "<group>"; };
-		4A42C3E2CE12FD07D470B2954EE04050 /* PDFKPageContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageContentView.m; path = Classes/View/PDFKPageContentView.m; sourceTree = "<group>"; };
-		4A7263E3A8CC0E8CCE3DBDA1E5267F18 /* Thumbs.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = Thumbs.psd; path = Resources/Thumbs.psd; sourceTree = "<group>"; };
-		4AA9EBF6B5F93DE67AC3E4C7CE09401F /* M13PDFKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = M13PDFKitResources.bundle; path = M13PDFKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C067717AC3595F9BDFD1B1B43305BDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		46F0ABD76076170B3BF9A38405E2DB8A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		46F2B77EA2783CD7900B67B571A6E5B2 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
 		4CE9D0A4D6DCC53DE99CD4DFDB3EEBA1 /* Pods-Westview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Westview-dummy.m"; sourceTree = "<group>"; };
-		4DAEE02D97B791BC02E47564DCB8D3AC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		4E9F930FD36C66CB2AB6C00375B9757F /* NIKFontAwesomeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeButton.h; path = FontAwesomeIconFactory/iOS/NIKFontAwesomeButton.h; sourceTree = "<group>"; };
-		4EB495CE3F7B269FB52EE1945064C0B1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		4EB6711B2AAC4F3AA5CEC9B945A15A90 /* PDFKThumbCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbCache.h; path = Classes/Thumbs/PDFKThumbCache.h; sourceTree = "<group>"; };
-		4F14E5469A554814E88AE36739D70BBF /* NIKFontAwesomeTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeTabBarItem.m; path = FontAwesomeIconFactory/iOS/NIKFontAwesomeTabBarItem.m; sourceTree = "<group>"; };
-		502D7005F44135593F86C697EFFF65BA /* CGPDFDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGPDFDocument.m; path = Classes/Document/CGPDFDocument.m; sourceTree = "<group>"; };
 		50A4647A298999F89F5D4C2E2A007626 /* Pods-WestviewUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WestviewUITests-frameworks.sh"; sourceTree = "<group>"; };
-		518E70C750E30D57CA67868758AE2AEC /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		51BC5D8BCFA33071E2C9B9CE21764CC9 /* TTOpenInAppActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTOpenInAppActivity-prefix.pch"; sourceTree = "<group>"; };
-		52497B9BEC537A52212BE98655B355CD /* Thumbs@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Thumbs@3x.png"; path = "Resources/Thumbs@3x.png"; sourceTree = "<group>"; };
 		527E85F98AF426A63DB40834DC34D537 /* Pods-WestviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WestviewTests.release.xcconfig"; sourceTree = "<group>"; };
-		538310662D31F6D30F08DBFCBB061CC5 /* TTOpenInAppActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTOpenInAppActivity-dummy.m"; sourceTree = "<group>"; };
-		5478886A710838A6C2533BED254F465A /* PDFKThumbCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbCache.m; path = Classes/Thumbs/PDFKThumbCache.m; sourceTree = "<group>"; };
 		54E9A78F0DE104E53B80719415A7DA0B /* Pods-WestviewTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WestviewTests.modulemap"; sourceTree = "<group>"; };
 		5624CBD8EA1E27BAD435A9CD1BE711C8 /* Pods-WestviewTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WestviewTests-umbrella.h"; sourceTree = "<group>"; };
 		571D83E168DCB2EB34022E3B65EC7502 /* Pods-Westview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Westview.debug.xcconfig"; sourceTree = "<group>"; };
-		58EA691ECADE38FC0FFEEDCC1EA40573 /* Bookmark@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = "Bookmark@2x.psd"; path = "Resources/Bookmark@2x.psd"; sourceTree = "<group>"; };
-		5EEC84C030F5668156B3ABB3E36E9DF5 /* FontAwesomeIconFactory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeIconFactory-umbrella.h"; sourceTree = "<group>"; };
-		62807E02827E0EB3E1727A48C3D6935D /* PDFKThumbQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbQueue.m; path = Classes/Thumbs/PDFKThumbQueue.m; sourceTree = "<group>"; };
-		6362384D9EFB53902F8DDAA2718B893C /* NIKFontAwesomePathFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathFactory.m; path = FontAwesomeIconFactory/NIKFontAwesomePathFactory.m; sourceTree = "<group>"; };
-		63B44B5BA47A088BC211F6055B0B118F /* CGPDFDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGPDFDocument.h; path = Classes/Document/CGPDFDocument.h; sourceTree = "<group>"; };
-		647F2F5EDA6292EEE5871FDC0FA837D0 /* PDFKPageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageContentView.h; path = Classes/View/PDFKPageContentView.h; sourceTree = "<group>"; };
-		64E44653441A9CEAAD1DA94C9FA4F33D /* Bookmarked@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmarked@2x.png"; path = "Resources/Bookmarked@2x.png"; sourceTree = "<group>"; };
-		673C5694AC45CC5B7A82D6F7E0096C9F /* Bookmark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmark@3x.png"; path = "Resources/Bookmark@3x.png"; sourceTree = "<group>"; };
-		682F7C31E7FA18965BAFA0E64B8BF391 /* Pods_WestviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WestviewUITests.framework; path = "Pods-WestviewUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68F7906B017601C7221A175DFF0D4E5E /* PDFKThumbView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbView.m; path = Classes/Thumbs/PDFKThumbView.m; sourceTree = "<group>"; };
-		691B9C88D4F858BD0C1BBBFEBEE6215F /* Bookmarked.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Bookmarked.png; path = Resources/Bookmarked.png; sourceTree = "<group>"; };
-		69AACFB35D52AB40D22403195343BF0F /* Bookmark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Bookmark.png; path = Resources/Bookmark.png; sourceTree = "<group>"; };
-		6DECD052A0750A6E36E74D7765C44CD4 /* PageList.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = PageList.psd; path = Resources/PageList.psd; sourceTree = "<group>"; };
-		6E7FC89452B5511F84281ABABD10E45B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73DD35C2928A37FCD2F2391D2162B498 /* PDFKPageContentLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageContentLayer.h; path = Classes/View/PDFKPageContentLayer.h; sourceTree = "<group>"; };
-		76B10BB2A9DD9BE0680FF6595F1C470B /* PDFKThumbFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbFetcher.h; path = Classes/Thumbs/PDFKThumbFetcher.h; sourceTree = "<group>"; };
-		7E5050686A68B87C6BD40E0E5CEBE9EC /* Bookmark@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = "Bookmark@3x.psd"; path = "Resources/Bookmark@3x.psd"; sourceTree = "<group>"; };
-		8362CBA13EBB9A86C42E9863989F85D8 /* PDFKBasicPDFViewerThumbsCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKBasicPDFViewerThumbsCollectionView.h; path = Classes/View/PDFKBasicPDFViewerThumbsCollectionView.h; sourceTree = "<group>"; };
-		8455A0AEE368FB8F9747062BF139BB39 /* PDFKPageContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageContent.m; path = Classes/View/PDFKPageContent.m; sourceTree = "<group>"; };
-		8A89860C8039D85A160D72B481C63AE2 /* Thumbs@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Thumbs@2x.png"; path = "Resources/Thumbs@2x.png"; sourceTree = "<group>"; };
-		8EFCD00727580B818CC9AF5029C7EEB5 /* TTOpenInAppActivity7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = TTOpenInAppActivity7.png; path = TTOpenInAppActivity/TTOpenInAppActivity7.png; sourceTree = "<group>"; };
+		5D517692A93C0B3403BC7A41D971DF63 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		5E785A47B23464F76A4C8276D29E0BCD /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6666E2EB4CF4C8946AD82E8E14B75E20 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FFEE331196B24F6FC36B08585B4602 /* Pods_WestviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WestviewTests.framework; path = "Pods-WestviewTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6761A807B758AB64D2E4C30B909BB1AE /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		68B743A9082D9B6E57C7B0199143D5B5 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		6AA5C58382F9C0754443DC20B00E048D /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kanna.modulemap; sourceTree = "<group>"; };
+		759A7AECEB7B678B807A6538EE17E97A /* Pods_Westview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Westview.framework; path = "Pods-Westview.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F43941B58CD10709EE75C8A2A508E6 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		7C92CF115EAF6597467354D0ECDC587C /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna.swift; sourceTree = "<group>"; };
+		7FFA7FEB3E86A145126FA10C282A6A1B /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		8378138A132874C90AEB49D94569A986 /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
+		85E10E464620BF7157231A05E37B002A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		899D7427711264A92437ADA7854C62B4 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		8AC4AB13CE190D8EC25FDD6583DBB444 /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
+		8CD0724FCFB92B59E371B2D3E8680113 /* Pods_WestviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WestviewUITests.framework; path = "Pods-WestviewUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E95DED1523170A792349B03E79917F3 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		8F6CE7C3824A4F69EBB386DB8D4B9BB3 /* Pods-Westview-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Westview-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9383EE941A74A7FE78CD4FF06408E9E1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		92437E460513A2989A57784792727A23 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		9376F12E14A13F92E89B47FC7740B78A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94712FCF0432F78465AC14AC9630C4E3 /* NIKFontAwesomeTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeTabBarItem.h; path = FontAwesomeIconFactory/iOS/NIKFontAwesomeTabBarItem.h; sourceTree = "<group>"; };
-		9666176254EF93D0054733AF0CFE4132 /* M13PDFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13PDFKit-prefix.pch"; sourceTree = "<group>"; };
-		97A7DDE19B90560848DB0DA472807F53 /* Thumbs.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Thumbs.png; path = Resources/Thumbs.png; sourceTree = "<group>"; };
-		99F7E7103EAD5C3646802B3A9C986747 /* PDFKBasicPDFViewerSinglePageCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKBasicPDFViewerSinglePageCollectionView.m; path = Classes/View/PDFKBasicPDFViewerSinglePageCollectionView.m; sourceTree = "<group>"; };
-		9ABD17CEFA11987A920C8CA4A8F71C27 /* PDFKPageContentLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageContentLayer.m; path = Classes/View/PDFKPageContentLayer.m; sourceTree = "<group>"; };
-		9BA3E9F5A14C0071C60B0863301D186D /* NIKFontAwesomePathRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathRenderer.m; path = FontAwesomeIconFactory/NIKFontAwesomePathRenderer.m; sourceTree = "<group>"; };
-		9CA4A5569B44AA15BBEFFF18A6811B82 /* PDFKThumbFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbFetcher.m; path = Classes/Thumbs/PDFKThumbFetcher.m; sourceTree = "<group>"; };
-		9CADC1BE641554F1FBB036BACB9EFF19 /* M13PDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13PDFKit.framework; path = M13PDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D850C9275A5F2D0BF4B1E5536CA3DBF /* FontAwesomeIconFactory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeIconFactory-prefix.pch"; sourceTree = "<group>"; };
-		9DBFBF6F0D120F50E3384E0A2F3F6888 /* PageList@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = "PageList@3x.psd"; path = "Resources/PageList@3x.psd"; sourceTree = "<group>"; };
-		9DFBB1A0D1EDC72405D938D96AD325DC /* PDFKThumbRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKThumbRenderer.m; path = Classes/Thumbs/PDFKThumbRenderer.m; sourceTree = "<group>"; };
-		9EFE30B3A8B58070FB62EEC60ECDB040 /* PDFKPageScrubber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKPageScrubber.m; path = Classes/View/PDFKPageScrubber.m; sourceTree = "<group>"; };
-		A11829C22369A038E1D8AC264508A36F /* TTOpenInAppActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTOpenInAppActivity-umbrella.h"; sourceTree = "<group>"; };
-		A2739AFF31EC79729A2710549FA73F04 /* PageList.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = PageList.png; path = Resources/PageList.png; sourceTree = "<group>"; };
-		A4C918614C6AFF3181AAC08D0D191E7A /* M13PDFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13PDFKit.xcconfig; sourceTree = "<group>"; };
-		A50E20331A38281444E1A8A058CAD32E /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeIconFactory.framework; path = FontAwesomeIconFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5588AEF0B0B729D8FF5A11D3F408A96 /* M13PDFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13PDFKit-dummy.m"; sourceTree = "<group>"; };
+		9804DD413BE3A133C3BD7916B15D0D69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDEA4B652D18D329E3DA3D559C10B14 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		A1F529C5A6C06819B7DEA826C6331325 /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
 		A5867FCEE37EEE0383084B1991E14E35 /* Pods-Westview-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Westview-umbrella.h"; sourceTree = "<group>"; };
-		A5CD390CAF54402A0EAE8AA199E4D263 /* NIKFontAwesomeIconFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconFactory.h; path = FontAwesomeIconFactory/NIKFontAwesomeIconFactory.h; sourceTree = "<group>"; };
-		AC2EF6A17B9A04D10D564B109686A5C9 /* PDFKThumbQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbQueue.h; path = Classes/Thumbs/PDFKThumbQueue.h; sourceTree = "<group>"; };
+		AB765914570419BC4ADB95C731AB7ADD /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		ACBA3D029DE75E856765D0954C2FF426 /* Pods-WestviewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WestviewTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ACD480EBA2E8658ED06CAC8724F95496 /* Bookmarked@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = "Bookmarked@3x.psd"; path = "Resources/Bookmarked@3x.psd"; sourceTree = "<group>"; };
+		ACC9C7A46C75CBD8F5189FA924071B36 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kanna.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3D544F588A06397919465958C0C304 /* Pods-WestviewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WestviewTests-dummy.m"; sourceTree = "<group>"; };
-		AD5918BD3E37FFD9AD62297C3D260478 /* Bookmark.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = Bookmark.psd; path = Resources/Bookmark.psd; sourceTree = "<group>"; };
-		AD6C5B7D7652ACDAAEDF82A339704D15 /* NIKFontAwesomePathRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathRenderer.h; path = FontAwesomeIconFactory/NIKFontAwesomePathRenderer.h; sourceTree = "<group>"; };
-		AEA4E30C8259FA25B00C341589DFD7F9 /* Bookmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmark@2x.png"; path = "Resources/Bookmark@2x.png"; sourceTree = "<group>"; };
-		AEEE6CAEC6B3F226A0172CDC600982B7 /* TTOpenInAppActivity7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "TTOpenInAppActivity7@2x.png"; path = "TTOpenInAppActivity/TTOpenInAppActivity7@2x.png"; sourceTree = "<group>"; };
 		B1822FB035CF0A92F6CE8A4DC9C79FF0 /* Pods-WestviewUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WestviewUITests.modulemap"; sourceTree = "<group>"; };
-		B587D41984333346CDE5F98C4BF36F98 /* TTOpenInAppActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTOpenInAppActivity.h; path = TTOpenInAppActivity/TTOpenInAppActivity.h; sourceTree = "<group>"; };
-		B9DED8C2C2BD5ECBE9D4F269FFFDB726 /* PDFKPageContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKPageContent.h; path = Classes/View/PDFKPageContent.h; sourceTree = "<group>"; };
-		BB98B1EE3F2A164C26111DC055528EAC /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = "Font-Awesome/fonts/FontAwesome.otf"; sourceTree = "<group>"; };
-		BCA3B551F39078DBDEA01F08243B7E25 /* NIKFontAwesomePathFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathFactory.h; path = FontAwesomeIconFactory/NIKFontAwesomePathFactory.h; sourceTree = "<group>"; };
-		BD449F12A9B6DDD6BC21E161A3144AAC /* PageList@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PageList@2x.png"; path = "Resources/PageList@2x.png"; sourceTree = "<group>"; };
+		B2EEC9C95454C6E57166589084E211D6 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		BF97B06F821D8975A1A20673A2A1A861 /* Pods-Westview-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Westview-acknowledgements.plist"; sourceTree = "<group>"; };
-		C237E9E013887824BFA8D76BC7D21941 /* PDFKThumbRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbRenderer.h; path = Classes/Thumbs/PDFKThumbRenderer.h; sourceTree = "<group>"; };
-		C51707EAF30531B8183EFBF950737B03 /* Thumbs@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = "Thumbs@2x.psd"; path = "Resources/Thumbs@2x.psd"; sourceTree = "<group>"; };
-		C8BDA0F41FDFBA9C77A694C7611F78D3 /* NIKFontAwesomeIconTraits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconTraits.h; path = FontAwesomeIconFactory/NIKFontAwesomeIconTraits.h; sourceTree = "<group>"; };
-		C9533CCEDD46C4D2EAABA645E8F0E442 /* NIKFontAwesomeImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeImageView.m; path = FontAwesomeIconFactory/iOS/NIKFontAwesomeImageView.m; sourceTree = "<group>"; };
-		C9CC75A7035F076B01B0A4997F36905C /* PDFKBasicPDFViewerSinglePageCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKBasicPDFViewerSinglePageCollectionView.h; path = Classes/View/PDFKBasicPDFViewerSinglePageCollectionView.h; sourceTree = "<group>"; };
-		D078ACB7BA5D9D59ED02CC6BD8485A71 /* PDFKDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PDFKDocument.m; path = Classes/Document/PDFKDocument.m; sourceTree = "<group>"; };
-		D1AE50AC2DD197C2653E9B8AC5D123A5 /* Thumbs@3x.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = "Thumbs@3x.psd"; path = "Resources/Thumbs@3x.psd"; sourceTree = "<group>"; };
+		CB7A3E648C0961F057E248F35069054D /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
+		CC1412420E3C411B15E3B49052E4D65E /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		CE2F9A10125A4C15E2293C6B9DC9FE16 /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/libxmlParserOption.swift; sourceTree = "<group>"; };
+		D1B7FEF62D93EEE73AA6F4981465E8B0 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		D4A7D3DFF6DF222798CD4C5E077257BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6ED29F1B17B7C20D51859B897D14AC0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		DB450D2EE8120ED53FC72573CB101377 /* Bookmarked@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = "Bookmarked@2x.psd"; path = "Resources/Bookmarked@2x.psd"; sourceTree = "<group>"; };
-		DB620493FC90248B76C886AAD0118C69 /* PageList@2x.psd */ = {isa = PBXFileReference; includeInIndex = 1; name = "PageList@2x.psd"; path = "Resources/PageList@2x.psd"; sourceTree = "<group>"; };
-		DD7BEF1AD32157C45ED01722E6D04224 /* PDFKThumbView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKThumbView.h; path = Classes/Thumbs/PDFKThumbView.h; sourceTree = "<group>"; };
+		DAA38F2A16F7C0C15BA80D69C3C86BAE /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		DD8489D721E136E0445CE76D48470372 /* Pods-WestviewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WestviewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DF6A8E63204FCF99ADE8F09F7FC28F86 /* PDFKDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFKDocument.h; path = Classes/Document/PDFKDocument.h; sourceTree = "<group>"; };
-		DFC00B1DE7BC10BF1FFD5F25A2F047D1 /* TTOpenInAppActivity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = TTOpenInAppActivity.png; path = TTOpenInAppActivity/TTOpenInAppActivity.png; sourceTree = "<group>"; };
-		E144584A8E08BA18FAE32DE17959FE14 /* NIKFontAwesomeIconFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeIconFactory.m; path = FontAwesomeIconFactory/NIKFontAwesomeIconFactory.m; sourceTree = "<group>"; };
+		E1D6DAE9485D1C77E891E55A0B453705 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		E4E9F8BB23375DC96D827EC63F068A17 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		E55DBDDDDEC5C24DA89B58DBF1EEE71F /* Pods-WestviewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WestviewUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E75186D82182AF6B7AC9CCDEB9CBC755 /* TTOpenInAppActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTOpenInAppActivity.framework; path = TTOpenInAppActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7AE2AA217928422DB4C95601B504D5C /* NIKFontAwesomeIconFactory+iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NIKFontAwesomeIconFactory+iOS.h"; path = "FontAwesomeIconFactory/NIKFontAwesomeIconFactory+iOS.h"; sourceTree = "<group>"; };
-		EA543B9A55723865B36C63600DFD6B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EE194279A79388869B20105704D4031C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		F06B6903A3CCA7BAB7CC4E0C6577BD58 /* TTOpenInAppActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTOpenInAppActivity.m; path = TTOpenInAppActivity/TTOpenInAppActivity.m; sourceTree = "<group>"; };
 		F157DE5C87F841440B8F1C748D80328F /* Pods-WestviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WestviewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1986AF6EB79DBCD90B75088DA6D2269 /* Pods-WestviewUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WestviewUITests-resources.sh"; sourceTree = "<group>"; };
-		F53A3414DD327104B06B136A544C2F97 /* TTOpenInAppActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTOpenInAppActivity.modulemap; sourceTree = "<group>"; };
-		F582EFBA9B98015F7D9B82025657D43E /* Bookmarked@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Bookmarked@3x.png"; path = "Resources/Bookmarked@3x.png"; sourceTree = "<group>"; };
-		F5F526DA294DDF5C17403049CADA40F8 /* FontAwesomeIconFactory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeIconFactory-dummy.m"; sourceTree = "<group>"; };
+		F7C80CCC7860C35DEFFED1DACBD8591E /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		FD01EF76091355E00CA67BA78E17845E /* Pods-Westview-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Westview-frameworks.sh"; sourceTree = "<group>"; };
+		FE6F9659CA8B903229AD705CD25344B8 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		FFF18EC3DE4CD516597022B5D61AE116 /* Pods-Westview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Westview.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CBF1E37DC372C32F4DD15D590B1ED67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83B0AF28505790275EBEE023C083046A /* CoreGraphics.framework in Frameworks */,
-				D34617A8F28F139CC3C3D1A24C098C4E /* Foundation.framework in Frameworks */,
-				D8266155E571CAC4ECA88D3485CA4301 /* ImageIO.framework in Frameworks */,
-				80A9D9B9A70679D5BDE4D528687FD86C /* TTOpenInAppActivity.framework in Frameworks */,
-				971FC72E2A616D4E2F81E17C3BD3493E /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2332D8746E1ED7AD8D3FEF8D0E9AD369 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E94FE93593C6FAE546B461337B65DF90 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		266B13017DB60BA8CA3752647372FFFD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E04155577D5E6966C1B3532F0E02FF8 /* Foundation.framework in Frameworks */,
-				DDE46BE2A39F853CCDBFE25D835D0D7F /* MobileCoreServices.framework in Frameworks */,
-				17B267B27CA5A3A145ABB5E2811B5E26 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D09A8AE8C840970B0FCE3E8E43DC494 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1C16596761D85D0DD3B439AE91F79A8 /* CoreGraphics.framework in Frameworks */,
-				6588DC8F1C4B1AB3E9A8F6EDD938AD33 /* CoreText.framework in Frameworks */,
-				0A61DA50ABB497C35FC193DD168AE4C2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CFC288FAB49B8F7F312BE98A1A721E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73B9F4042A27BABF699EA7C0DD9289A0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF375949D23DE7E1A884ACD80D34C6BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,156 +160,91 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		884841635AC068634CFA8C2FB9FC9FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6111BEDDF4D12D95C9B1C8932C938493 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CF019128134AA0EB2AC96AB5448250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1541CA430CBF7207022E26C5D1DEFB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00637B6651232F526DCC9DA8985F5EE9 /* Maps */ = {
+		15E431848CB0E4F4DDEBD76C43D1EDE0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FEAE6917914933DF80A2834453096A32 /* Frameworks */,
-				46602DA4BD935803795DB80919733F6D /* Resources */,
+				46F0ABD76076170B3BF9A38405E2DB8A /* Alamofire.modulemap */,
+				0D472045B20081F8A00F043C9C34D9D8 /* Alamofire.xcconfig */,
+				8E95DED1523170A792349B03E79917F3 /* Alamofire-dummy.m */,
+				E4E9F8BB23375DC96D827EC63F068A17 /* Alamofire-prefix.pch */,
+				CC1412420E3C411B15E3B49052E4D65E /* Alamofire-umbrella.h */,
+				9804DD413BE3A133C3BD7916B15D0D69 /* Info.plist */,
 			);
-			name = Maps;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		10863A97975C4AD7C85FA3D44EA0A8DD /* Resources */ = {
+		22D7796376D6A03100706700E37F05A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69AACFB35D52AB40D22403195343BF0F /* Bookmark.png */,
-				AD5918BD3E37FFD9AD62297C3D260478 /* Bookmark.psd */,
-				AEA4E30C8259FA25B00C341589DFD7F9 /* Bookmark@2x.png */,
-				58EA691ECADE38FC0FFEEDCC1EA40573 /* Bookmark@2x.psd */,
-				673C5694AC45CC5B7A82D6F7E0096C9F /* Bookmark@3x.png */,
-				7E5050686A68B87C6BD40E0E5CEBE9EC /* Bookmark@3x.psd */,
-				691B9C88D4F858BD0C1BBBFEBEE6215F /* Bookmarked.png */,
-				0CECCA4964B747FF510CCBD37871FF3D /* Bookmarked.psd */,
-				64E44653441A9CEAAD1DA94C9FA4F33D /* Bookmarked@2x.png */,
-				DB450D2EE8120ED53FC72573CB101377 /* Bookmarked@2x.psd */,
-				F582EFBA9B98015F7D9B82025657D43E /* Bookmarked@3x.png */,
-				ACD480EBA2E8658ED06CAC8724F95496 /* Bookmarked@3x.psd */,
-				A2739AFF31EC79729A2710549FA73F04 /* PageList.png */,
-				6DECD052A0750A6E36E74D7765C44CD4 /* PageList.psd */,
-				BD449F12A9B6DDD6BC21E161A3144AAC /* PageList@2x.png */,
-				DB620493FC90248B76C886AAD0118C69 /* PageList@2x.psd */,
-				1368CD0989412DFF712542B0871F9E0B /* PageList@3x.png */,
-				9DBFBF6F0D120F50E3384E0A2F3F6888 /* PageList@3x.psd */,
-				97A7DDE19B90560848DB0DA472807F53 /* Thumbs.png */,
-				4A7263E3A8CC0E8CCE3DBDA1E5267F18 /* Thumbs.psd */,
-				8A89860C8039D85A160D72B481C63AE2 /* Thumbs@2x.png */,
-				C51707EAF30531B8183EFBF950737B03 /* Thumbs@2x.psd */,
-				52497B9BEC537A52212BE98655B355CD /* Thumbs@3x.png */,
-				D1AE50AC2DD197C2653E9B8AC5D123A5 /* Thumbs@3x.psd */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		128B3C4C32B9D323E04D0BB5992B33E3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3E55C55B365ED614AA945E8B2C94948F /* TTOpenInAppActivity.framework */,
-				CCBC1E2DD1BCBF030E8A40930E31394F /* iOS */,
+				D1B7FEF62D93EEE73AA6F4981465E8B0 /* GoogleMapsBase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1296BE3F9769DB7D58C23B84DC68B0BD /* Support Files */ = {
+		275E2B5DDFEFF950723D57EF39D58622 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				217616B578F491F8B8D04699977BEAB6 /* Info.plist */,
-				F53A3414DD327104B06B136A544C2F97 /* TTOpenInAppActivity.modulemap */,
-				3071495209254DA35FFAE12133ED00D0 /* TTOpenInAppActivity.xcconfig */,
-				538310662D31F6D30F08DBFCBB061CC5 /* TTOpenInAppActivity-dummy.m */,
-				51BC5D8BCFA33071E2C9B9CE21764CC9 /* TTOpenInAppActivity-prefix.pch */,
-				A11829C22369A038E1D8AC264508A36F /* TTOpenInAppActivity-umbrella.h */,
+				22D7796376D6A03100706700E37F05A3 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TTOpenInAppActivity";
+			name = Base;
 			sourceTree = "<group>";
 		};
-		239F02C705A1737061AED93195C76D05 /* GoogleMaps */ = {
+		3124FF48CBE215863849A436C844750F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C01464D0F9118E9D32D6502FFE1B7E9B /* Base */,
-				00637B6651232F526DCC9DA8985F5EE9 /* Maps */,
+				16DCF27D5E0E8D12DF1DACF568ACCEA7 /* GoogleMaps.framework */,
+				DAA38F2A16F7C0C15BA80D69C3C86BAE /* GoogleMapsCore.framework */,
 			);
-			name = GoogleMaps;
-			path = GoogleMaps;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		25E7880E5056807539029DF8DCF5E5C8 /* Support Files */ = {
+		483BE1E45F46C4ADCFC5842852D2C46D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F0D7FB71854FA9DF0020BC4F6257C64 /* Info.plist */,
-				38FFA2977D6BFDFFD72B6733D7C9E0D8 /* M13PDFKit.modulemap */,
-				A4C918614C6AFF3181AAC08D0D191E7A /* M13PDFKit.xcconfig */,
-				A5588AEF0B0B729D8FF5A11D3F408A96 /* M13PDFKit-dummy.m */,
-				9666176254EF93D0054733AF0CFE4132 /* M13PDFKit-prefix.pch */,
-				3E5E6AF9842080730CB7ADD6171C96F9 /* M13PDFKit-umbrella.h */,
-				0910412B5C643E7F3CB00EE3A02D65F4 /* ResourceBundle-M13PDFKitResources-Info.plist */,
+				76A91497FCC0534C25B959024C8B4B75 /* Alamofire */,
+				6170BE6F5432B378F477685D91CFC2B1 /* GoogleMaps */,
+				5417221D832C365571CF845058B55040 /* GooglePlaces */,
+				6DADF47C391C76E2B38833FE0E410B2A /* Kanna */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/M13PDFKit";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		306742E78EDD1BCB0C7230CAFBE0EB7C /* Support Files */ = {
+		5417221D832C365571CF845058B55040 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				03EBEFF34A397B145754EE729FD7C697 /* FontAwesomeIconFactory.modulemap */,
-				3289940BF18B902299BEB5C97095972E /* FontAwesomeIconFactory.xcconfig */,
-				F5F526DA294DDF5C17403049CADA40F8 /* FontAwesomeIconFactory-dummy.m */,
-				9D850C9275A5F2D0BF4B1E5536CA3DBF /* FontAwesomeIconFactory-prefix.pch */,
-				5EEC84C030F5668156B3ABB3E36E9DF5 /* FontAwesomeIconFactory-umbrella.h */,
-				6E7FC89452B5511F84281ABABD10E45B /* Info.plist */,
+				BA75C678921135DD7273428140248E1E /* Frameworks */,
+				D1A8A2FE045CA997BDA4BCFD156955DD /* Resources */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FontAwesomeIconFactory";
-			sourceTree = "<group>";
-		};
-		372ECA767FD2FD028E15F2D7E467D4D1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DFC00B1DE7BC10BF1FFD5F25A2F047D1 /* TTOpenInAppActivity.png */,
-				8EFCD00727580B818CC9AF5029C7EEB5 /* TTOpenInAppActivity7.png */,
-				AEEE6CAEC6B3F226A0172CDC600982B7 /* TTOpenInAppActivity7@2x.png */,
-				175324A1C2FDB0F80D3D1437BC5DF8AA /* TTOpenInAppActivity@2x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		46602DA4BD935803795DB80919733F6D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4DAEE02D97B791BC02E47564DCB8D3AC /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		47E76B47F7DD27C4167E8F9045224DE2 /* FontAwesomeIconFactory */ = {
-			isa = PBXGroup;
-			children = (
-				26DE9F1ADAFA20AF21695A4DDBED5612 /* FontAwesomeIconFactory.h */,
-				4E9F930FD36C66CB2AB6C00375B9757F /* NIKFontAwesomeButton.h */,
-				1874FFC21D9F13829554D83C029A572A /* NIKFontAwesomeButton.m */,
-				3E37F65D7021E83FF658ED6B5DFCDDB3 /* NIKFontAwesomeIcon.h */,
-				A5CD390CAF54402A0EAE8AA199E4D263 /* NIKFontAwesomeIconFactory.h */,
-				E144584A8E08BA18FAE32DE17959FE14 /* NIKFontAwesomeIconFactory.m */,
-				E7AE2AA217928422DB4C95601B504D5C /* NIKFontAwesomeIconFactory+iOS.h */,
-				03D1E63AEFB5EC8A2590CE65B4189EC7 /* NIKFontAwesomeIconFactory+OSX.h */,
-				C8BDA0F41FDFBA9C77A694C7611F78D3 /* NIKFontAwesomeIconTraits.h */,
-				06BC2A66490BE3AB9BD3AE9E115DCDF3 /* NIKFontAwesomeIconTypes.h */,
-				400F77A646F7BB9AC370FB2F899AA321 /* NIKFontAwesomeImageView.h */,
-				C9533CCEDD46C4D2EAABA645E8F0E442 /* NIKFontAwesomeImageView.m */,
-				BCA3B551F39078DBDEA01F08243B7E25 /* NIKFontAwesomePathFactory.h */,
-				6362384D9EFB53902F8DDAA2718B893C /* NIKFontAwesomePathFactory.m */,
-				AD6C5B7D7652ACDAAEDF82A339704D15 /* NIKFontAwesomePathRenderer.h */,
-				9BA3E9F5A14C0071C60B0863301D186D /* NIKFontAwesomePathRenderer.m */,
-				94712FCF0432F78465AC14AC9630C4E3 /* NIKFontAwesomeTabBarItem.h */,
-				4F14E5469A554814E88AE36739D70BBF /* NIKFontAwesomeTabBarItem.m */,
-				B36719BDBF3DE631FEBE51EB4A504C07 /* Resources */,
-				306742E78EDD1BCB0C7230CAFBE0EB7C /* Support Files */,
-			);
-			name = FontAwesomeIconFactory;
-			path = FontAwesomeIconFactory;
+			name = GooglePlaces;
+			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
 		54A12C23D26CE6983AF96786ACA0A981 /* Targets Support Files */ = {
@@ -549,89 +275,63 @@
 			path = "Target Support Files/Pods-Westview";
 			sourceTree = "<group>";
 		};
-		666C2952924C6064B874F5A1267B7BEE /* TTOpenInAppActivity */ = {
+		6170BE6F5432B378F477685D91CFC2B1 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				B587D41984333346CDE5F98C4BF36F98 /* TTOpenInAppActivity.h */,
-				F06B6903A3CCA7BAB7CC4E0C6577BD58 /* TTOpenInAppActivity.m */,
-				372ECA767FD2FD028E15F2D7E467D4D1 /* Resources */,
-				1296BE3F9769DB7D58C23B84DC68B0BD /* Support Files */,
+				275E2B5DDFEFF950723D57EF39D58622 /* Base */,
+				9D348127CC44BFE8B793F048B27F7B2A /* Maps */,
 			);
-			name = TTOpenInAppActivity;
-			path = TTOpenInAppActivity;
+			name = GoogleMaps;
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
-		68F518560A8EB8CAD53B76D3F6056124 /* GooglePlaces */ = {
+		6DADF47C391C76E2B38833FE0E410B2A /* Kanna */ = {
 			isa = PBXGroup;
 			children = (
-				D3934E3E087555337C75E3E7013BB628 /* Frameworks */,
-				9B628474E5DCE59DBC74C365CA620363 /* Resources */,
+				07B884CBBC80B98DACD5E1B4FCD5AE1C /* CSS.swift */,
+				7C92CF115EAF6597467354D0ECDC587C /* Kanna.swift */,
+				46F2B77EA2783CD7900B67B571A6E5B2 /* libxmlHTMLDocument.swift */,
+				92437E460513A2989A57784792727A23 /* libxmlHTMLNode.swift */,
+				CE2F9A10125A4C15E2293C6B9DC9FE16 /* libxmlParserOption.swift */,
+				D47840E65408028DC43774C6952943C4 /* Support Files */,
 			);
-			name = GooglePlaces;
-			path = GooglePlaces;
+			name = Kanna;
+			path = Kanna;
 			sourceTree = "<group>";
 		};
-		706B87967C69C485B7882C27D20247C4 /* M13PDFKit */ = {
+		76A91497FCC0534C25B959024C8B4B75 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				63B44B5BA47A088BC211F6055B0B118F /* CGPDFDocument.h */,
-				502D7005F44135593F86C697EFFF65BA /* CGPDFDocument.m */,
-				2DBB849F424DADB19F6C9D5FF063E4D9 /* PDFKBasicPDFViewer.h */,
-				2EF543EE21077425E64FF2D93C6E326E /* PDFKBasicPDFViewer.m */,
-				C9CC75A7035F076B01B0A4997F36905C /* PDFKBasicPDFViewerSinglePageCollectionView.h */,
-				99F7E7103EAD5C3646802B3A9C986747 /* PDFKBasicPDFViewerSinglePageCollectionView.m */,
-				8362CBA13EBB9A86C42E9863989F85D8 /* PDFKBasicPDFViewerThumbsCollectionView.h */,
-				29E072EB4A7B414ED3CBC57F6C1BFF38 /* PDFKBasicPDFViewerThumbsCollectionView.m */,
-				DF6A8E63204FCF99ADE8F09F7FC28F86 /* PDFKDocument.h */,
-				D078ACB7BA5D9D59ED02CC6BD8485A71 /* PDFKDocument.m */,
-				B9DED8C2C2BD5ECBE9D4F269FFFDB726 /* PDFKPageContent.h */,
-				8455A0AEE368FB8F9747062BF139BB39 /* PDFKPageContent.m */,
-				73DD35C2928A37FCD2F2391D2162B498 /* PDFKPageContentLayer.h */,
-				9ABD17CEFA11987A920C8CA4A8F71C27 /* PDFKPageContentLayer.m */,
-				647F2F5EDA6292EEE5871FDC0FA837D0 /* PDFKPageContentView.h */,
-				4A42C3E2CE12FD07D470B2954EE04050 /* PDFKPageContentView.m */,
-				074C70FD23D48C40E81C20D8D261083F /* PDFKPageScrubber.h */,
-				9EFE30B3A8B58070FB62EEC60ECDB040 /* PDFKPageScrubber.m */,
-				4EB6711B2AAC4F3AA5CEC9B945A15A90 /* PDFKThumbCache.h */,
-				5478886A710838A6C2533BED254F465A /* PDFKThumbCache.m */,
-				76B10BB2A9DD9BE0680FF6595F1C470B /* PDFKThumbFetcher.h */,
-				9CA4A5569B44AA15BBEFFF18A6811B82 /* PDFKThumbFetcher.m */,
-				AC2EF6A17B9A04D10D564B109686A5C9 /* PDFKThumbQueue.h */,
-				62807E02827E0EB3E1727A48C3D6935D /* PDFKThumbQueue.m */,
-				C237E9E013887824BFA8D76BC7D21941 /* PDFKThumbRenderer.h */,
-				9DFBB1A0D1EDC72405D938D96AD325DC /* PDFKThumbRenderer.m */,
-				00AD96CA6BBF0A229AD8F88F3CE9CF90 /* PDFKThumbRequest.h */,
-				0002938903ACA4777CD90201811EFF8A /* PDFKThumbRequest.m */,
-				DD7BEF1AD32157C45ED01722E6D04224 /* PDFKThumbView.h */,
-				68F7906B017601C7221A175DFF0D4E5E /* PDFKThumbView.m */,
-				10863A97975C4AD7C85FA3D44EA0A8DD /* Resources */,
-				25E7880E5056807539029DF8DCF5E5C8 /* Support Files */,
+				F7C80CCC7860C35DEFFED1DACBD8591E /* AFError.swift */,
+				39A1B395542B2BE280A25A39D39374D9 /* Alamofire.swift */,
+				5D517692A93C0B3403BC7A41D971DF63 /* DispatchQueue+Alamofire.swift */,
+				5E785A47B23464F76A4C8276D29E0BCD /* MultipartFormData.swift */,
+				68B743A9082D9B6E57C7B0199143D5B5 /* NetworkReachabilityManager.swift */,
+				FE6F9659CA8B903229AD705CD25344B8 /* Notifications.swift */,
+				77F43941B58CD10709EE75C8A2A508E6 /* ParameterEncoding.swift */,
+				899D7427711264A92437ADA7854C62B4 /* Request.swift */,
+				9376F12E14A13F92E89B47FC7740B78A /* Response.swift */,
+				6761A807B758AB64D2E4C30B909BB1AE /* ResponseSerialization.swift */,
+				7FFA7FEB3E86A145126FA10C282A6A1B /* Result.swift */,
+				9FDEA4B652D18D329E3DA3D559C10B14 /* ServerTrustPolicy.swift */,
+				E1D6DAE9485D1C77E891E55A0B453705 /* SessionDelegate.swift */,
+				2B35B91DEAC7A1FB7D3B67CB8CAAE7EC /* SessionManager.swift */,
+				214D45B1D7ADD3DD8681D063246D0FB3 /* TaskDelegate.swift */,
+				AB765914570419BC4ADB95C731AB7ADD /* Timeline.swift */,
+				85E10E464620BF7157231A05E37B002A /* Validation.swift */,
+				15E431848CB0E4F4DDEBD76C43D1EDE0 /* Support Files */,
 			);
-			name = M13PDFKit;
-			path = M13PDFKit;
-			sourceTree = "<group>";
-		};
-		7A0D87B8129429AC0954735CAC7941A4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A50E20331A38281444E1A8A058CAD32E /* FontAwesomeIconFactory.framework */,
-				9CADC1BE641554F1FBB036BACB9EFF19 /* M13PDFKit.framework */,
-				4AA9EBF6B5F93DE67AC3E4C7CE09401F /* M13PDFKitResources.bundle */,
-				1F82D2E333CC59B5CE672C812D79BCCA /* Pods_Westview.framework */,
-				176993FD2CD37CA6C49F487DEA55BFDA /* Pods_WestviewTests.framework */,
-				682F7C31E7FA18965BAFA0E64B8BF391 /* Pods_WestviewUITests.framework */,
-				E75186D82182AF6B7AC9CCDEB9CBC755 /* TTOpenInAppActivity.framework */,
-			);
-			name = Products;
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				128B3C4C32B9D323E04D0BB5992B33E3 /* Frameworks */,
-				E0E08D6DBC397B1CCE4D09EAE5B2E38F /* Pods */,
-				7A0D87B8129429AC0954735CAC7941A4 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				483BE1E45F46C4ADCFC5842852D2C46D /* Pods */,
+				FBA8BFB3F0B22EFBA7727ACA629CD241 /* Products */,
 				54A12C23D26CE6983AF96786ACA0A981 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -672,78 +372,79 @@
 			path = "Target Support Files/Pods-WestviewTests";
 			sourceTree = "<group>";
 		};
-		9B628474E5DCE59DBC74C365CA620363 /* Resources */ = {
+		9D348127CC44BFE8B793F048B27F7B2A /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				1A4AA4916A0942771E07229E62D4522C /* GooglePlaces.bundle */,
+				3124FF48CBE215863849A436C844750F /* Frameworks */,
+				C465400580DA0BAA95DDEF3FB85823EB /* Resources */,
 			);
-			name = Resources;
+			name = Maps;
 			sourceTree = "<group>";
 		};
-		B36719BDBF3DE631FEBE51EB4A504C07 /* Resources */ = {
+		BA75C678921135DD7273428140248E1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BB98B1EE3F2A164C26111DC055528EAC /* FontAwesome.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		C01464D0F9118E9D32D6502FFE1B7E9B /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				C440FC0B4B7C0E10420A7A2CA206AF76 /* Frameworks */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		C440FC0B4B7C0E10420A7A2CA206AF76 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				365B44E7DE974A1176FFCE7D834480F8 /* GoogleMapsBase.framework */,
+				421E7AF2A862514857F1A6713466F73F /* GooglePlaces.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CCBC1E2DD1BCBF030E8A40930E31394F /* iOS */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C067717AC3595F9BDFD1B1B43305BDD /* CoreGraphics.framework */,
-				9383EE941A74A7FE78CD4FF06408E9E1 /* CoreText.framework */,
-				EA543B9A55723865B36C63600DFD6B91 /* Foundation.framework */,
-				EE194279A79388869B20105704D4031C /* ImageIO.framework */,
-				D6ED29F1B17B7C20D51859B897D14AC0 /* MobileCoreServices.framework */,
-				3D348BE6210704450BBBAB1666C01BA4 /* UIKit.framework */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C465400580DA0BAA95DDEF3FB85823EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D4E86A89C513E229DB59A189F22E9CE /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D1A8A2FE045CA997BDA4BCFD156955DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2EEC9C95454C6E57166589084E211D6 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D3934E3E087555337C75E3E7013BB628 /* Frameworks */ = {
+		D47840E65408028DC43774C6952943C4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				235F8282774DAEB548D59BC5A06E9B45 /* GooglePlaces.framework */,
+				379D106CE18C3E0CF8D7F829D56A5413 /* Info.plist */,
+				6AA5C58382F9C0754443DC20B00E048D /* Kanna.modulemap */,
+				CB7A3E648C0961F057E248F35069054D /* Kanna.xcconfig */,
+				A1F529C5A6C06819B7DEA826C6331325 /* Kanna-dummy.m */,
+				8378138A132874C90AEB49D94569A986 /* Kanna-prefix.pch */,
+				8AC4AB13CE190D8EC25FDD6583DBB444 /* Kanna-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Kanna";
 			sourceTree = "<group>";
 		};
-		E0E08D6DBC397B1CCE4D09EAE5B2E38F /* Pods */ = {
+		FBA8BFB3F0B22EFBA7727ACA629CD241 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47E76B47F7DD27C4167E8F9045224DE2 /* FontAwesomeIconFactory */,
-				239F02C705A1737061AED93195C76D05 /* GoogleMaps */,
-				68F518560A8EB8CAD53B76D3F6056124 /* GooglePlaces */,
-				706B87967C69C485B7882C27D20247C4 /* M13PDFKit */,
-				666C2952924C6064B874F5A1267B7BEE /* TTOpenInAppActivity */,
+				6666E2EB4CF4C8946AD82E8E14B75E20 /* Alamofire.framework */,
+				ACC9C7A46C75CBD8F5189FA924071B36 /* Kanna.framework */,
+				759A7AECEB7B678B807A6538EE17E97A /* Pods_Westview.framework */,
+				66FFEE331196B24F6FC36B08585B4602 /* Pods_WestviewTests.framework */,
+				8CD0724FCFB92B59E371B2D3E8680113 /* Pods_WestviewUITests.framework */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FEAE6917914933DF80A2834453096A32 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				518E70C750E30D57CA67868758AE2AEC /* GoogleMaps.framework */,
-				4EB495CE3F7B269FB52EE1945064C0B1 /* GoogleMapsCore.framework */,
-			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -757,15 +458,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2109F9BDE916CCCDE0DB10A1FA7E303A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3E994C8D39F0C5426CC372A13F3A0BC /* TTOpenInAppActivity-umbrella.h in Headers */,
-				D979FA91CF7F0B63516DB79D191B19A7 /* TTOpenInAppActivity.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		31DFA71D2E23EA4F9C89D3EF68074740 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -774,54 +466,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3902954695ED05A3E6F82D3512F3C006 /* Headers */ = {
+		326C0B76283A4CA27128C1033294B898 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9491C040850DEDE77193983521D20184 /* Pods-Westview-umbrella.h in Headers */,
+				F71349831C39DF0E4B99308593EEA785 /* Pods-Westview-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AB3ACD2F59C4122D59824853FA3237E /* Headers */ = {
+		81C622DDA2F1441F2AF4A2D35E8F39DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E105AFFA1C89E6C9E475604A51AF58 /* FontAwesomeIconFactory-umbrella.h in Headers */,
-				E03347522CDFD5D1021D07B67987ABCA /* FontAwesomeIconFactory.h in Headers */,
-				C50838E12575BB44F989CD84B46C3749 /* NIKFontAwesomeButton.h in Headers */,
-				4CF7CF6EA6EA3ED137DC6ADFDB9BEA28 /* NIKFontAwesomeIcon.h in Headers */,
-				82FF49F3E7A0384217FD46D6214BC695 /* NIKFontAwesomeIconFactory+iOS.h in Headers */,
-				6A47F3969AE049E7773633B8EFF6E25F /* NIKFontAwesomeIconFactory+OSX.h in Headers */,
-				0E95E436FE5BBB3F3E65825B3219DEAB /* NIKFontAwesomeIconFactory.h in Headers */,
-				3782CB4EF2B8777DC8E7C82043380416 /* NIKFontAwesomeIconTraits.h in Headers */,
-				506861039E9BB3AA0E3C90A8F38F125A /* NIKFontAwesomeIconTypes.h in Headers */,
-				B78FF5465584527B2785C4E8E6DF9294 /* NIKFontAwesomeImageView.h in Headers */,
-				A9940A861BB46673C37C4B6073C06E6F /* NIKFontAwesomePathFactory.h in Headers */,
-				3C65F57D8C4BF643B80FF883B1A70F6B /* NIKFontAwesomePathRenderer.h in Headers */,
-				A9E4416B6EFA65F954C28DA234342A37 /* NIKFontAwesomeTabBarItem.h in Headers */,
+				0EF67AE494DDBB8941FB8DB7AB6A54CD /* Kanna-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C855417EC7F696039F35098C764952E1 /* Headers */ = {
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A20D7E3AA0B27A81579F80BA5535434 /* CGPDFDocument.h in Headers */,
-				DFBD4FBC7F5BBC2D300C20E59884B389 /* M13PDFKit-umbrella.h in Headers */,
-				009F7DADD5C6A77979868631ED1589C1 /* PDFKBasicPDFViewer.h in Headers */,
-				B0747E072C73B20B0ACDDF57C094A477 /* PDFKBasicPDFViewerSinglePageCollectionView.h in Headers */,
-				8E4CC63D235B18E3EFA0D15C4609AF52 /* PDFKBasicPDFViewerThumbsCollectionView.h in Headers */,
-				2D3D389EA58982A1452E3304DC97C66B /* PDFKDocument.h in Headers */,
-				8D6C20725F0ADB522AE81254A5580BA7 /* PDFKPageContent.h in Headers */,
-				CD97BF8D922315400D0E773049D95FBC /* PDFKPageContentLayer.h in Headers */,
-				7F7ADEE7307A970A46454F884C35D063 /* PDFKPageContentView.h in Headers */,
-				911C80B75D3A75330DEA4DBEF65A843A /* PDFKPageScrubber.h in Headers */,
-				B26910677CA8CC9E81F676ABEE57FFA4 /* PDFKThumbCache.h in Headers */,
-				F65138DA8C3F65EE8ABCDC324F8D0CC6 /* PDFKThumbFetcher.h in Headers */,
-				9329409371F15E11FCD3F015A1EC0343 /* PDFKThumbQueue.h in Headers */,
-				CFD2E990C1C5EFA734727AF0BA00F142 /* PDFKThumbRenderer.h in Headers */,
-				A855E9024E202E3E6231E762ADFC4DC4 /* PDFKThumbRequest.h in Headers */,
-				509055AEDB8A418F4B8B96BFA91713B0 /* PDFKThumbView.h in Headers */,
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,43 +507,24 @@
 			);
 			name = "Pods-WestviewUITests";
 			productName = "Pods-WestviewUITests";
-			productReference = 682F7C31E7FA18965BAFA0E64B8BF391 /* Pods_WestviewUITests.framework */;
+			productReference = 8CD0724FCFB92B59E371B2D3E8680113 /* Pods_WestviewUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		34E2FE02F69845D7E81F53D6DF22DC2E /* FontAwesomeIconFactory */ = {
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 824CCE4BE1EE10EAA046AA80B80EF7A4 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactory" */;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				C1033E3C750890EA4CE6147742B52EFF /* Sources */,
-				3D09A8AE8C840970B0FCE3E8E43DC494 /* Frameworks */,
-				8AB3ACD2F59C4122D59824853FA3237E /* Headers */,
-				E1D07005603DC6B645AF6EB9866C3076 /* Resources */,
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FontAwesomeIconFactory;
-			productName = FontAwesomeIconFactory;
-			productReference = A50E20331A38281444E1A8A058CAD32E /* FontAwesomeIconFactory.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		594013F336E9839810CAB9013859422A /* TTOpenInAppActivity */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E97C67B848DA59818DF55A893C3DA2A8 /* Build configuration list for PBXNativeTarget "TTOpenInAppActivity" */;
-			buildPhases = (
-				A0AEE274CA5C017039AC7A1614BAA944 /* Sources */,
-				266B13017DB60BA8CA3752647372FFFD /* Frameworks */,
-				2109F9BDE916CCCDE0DB10A1FA7E303A /* Headers */,
-				1085396F81EE30DA77996EB25711AFAA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TTOpenInAppActivity;
-			productName = TTOpenInAppActivity;
-			productReference = E75186D82182AF6B7AC9CCDEB9CBC755 /* TTOpenInAppActivity.framework */;
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 6666E2EB4CF4C8946AD82E8E14B75E20 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B178422787F9C9038054DE334D0DA281 /* Pods-WestviewTests */ = {
@@ -895,64 +541,43 @@
 			);
 			name = "Pods-WestviewTests";
 			productName = "Pods-WestviewTests";
-			productReference = 176993FD2CD37CA6C49F487DEA55BFDA /* Pods_WestviewTests.framework */;
+			productReference = 66FFEE331196B24F6FC36B08585B4602 /* Pods_WestviewTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B35D8E3C55C8E1EB6D42BC6D210E25BB /* Pods-Westview */ = {
+		C8880951B72BF78EB8667408CE03C05C /* Pods-Westview */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B5C658899129EA8058B762F9D475090 /* Build configuration list for PBXNativeTarget "Pods-Westview" */;
+			buildConfigurationList = EC86013A77F8E5EA28C7121F441C1207 /* Build configuration list for PBXNativeTarget "Pods-Westview" */;
 			buildPhases = (
-				9756C48C5C2851AEAAD4EFE1E16DAA81 /* Sources */,
-				73B9F4042A27BABF699EA7C0DD9289A0 /* Frameworks */,
-				3902954695ED05A3E6F82D3512F3C006 /* Headers */,
+				0E68307F7D285513F5AAB597ACFBFB8D /* Sources */,
+				D9CF019128134AA0EB2AC96AB5448250 /* Frameworks */,
+				326C0B76283A4CA27128C1033294B898 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A680C6E53F22A5E0E074A8B90FFD78E7 /* PBXTargetDependency */,
-				5FA035B782621CDFDC68281521D5D6F7 /* PBXTargetDependency */,
-				126BFFC09397C88F77C409BA375B0996 /* PBXTargetDependency */,
+				C589AD57BC0216ED49D5156DC14D821C /* PBXTargetDependency */,
+				CB2D0972C70E689AA1B37184F4BFD0C9 /* PBXTargetDependency */,
 			);
 			name = "Pods-Westview";
 			productName = "Pods-Westview";
-			productReference = 1F82D2E333CC59B5CE672C812D79BCCA /* Pods_Westview.framework */;
+			productReference = 759A7AECEB7B678B807A6538EE17E97A /* Pods_Westview.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BA99DDAC73B1ED8E4B1629164038D9C6 /* M13PDFKit-M13PDFKitResources */ = {
+		C8F7054D982A7A5AD7861F725CFED7E6 /* Kanna */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2475819148C93D0DBAE1889865A02C0 /* Build configuration list for PBXNativeTarget "M13PDFKit-M13PDFKitResources" */;
+			buildConfigurationList = 07E71A9A23619CD9CFC4798408C3E1FF /* Build configuration list for PBXNativeTarget "Kanna" */;
 			buildPhases = (
-				123DED70C96A9D97AD4A8CC6971EC0F2 /* Sources */,
-				6CFC288FAB49B8F7F312BE98A1A721E8 /* Frameworks */,
-				02425E2A65D5868FD89A798375801146 /* Resources */,
+				19F630E659FE735B132547A46A27E416 /* Sources */,
+				884841635AC068634CFA8C2FB9FC9FB8 /* Frameworks */,
+				81C622DDA2F1441F2AF4A2D35E8F39DF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "M13PDFKit-M13PDFKitResources";
-			productName = "M13PDFKit-M13PDFKitResources";
-			productReference = 4AA9EBF6B5F93DE67AC3E4C7CE09401F /* M13PDFKitResources.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		F7370040C04EADB101B663AD4EDB88FC /* M13PDFKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4194B5A2A137819A762ED12584CC9C86 /* Build configuration list for PBXNativeTarget "M13PDFKit" */;
-			buildPhases = (
-				80579344D93FF69978AF4844EF67FE29 /* Sources */,
-				1CBF1E37DC372C32F4DD15D590B1ED67 /* Frameworks */,
-				5D18F12C800257C84037F472C9DEFEAB /* Resources */,
-				C855417EC7F696039F35098C764952E1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA8155DAEED0873B0AF66C88FFDAF41F /* PBXTargetDependency */,
-				8FC9BE2626ADD01334C5A6BB63800F8A /* PBXTargetDependency */,
-			);
-			name = M13PDFKit;
-			productName = M13PDFKit;
-			productReference = 9CADC1BE641554F1FBB036BACB9EFF19 /* M13PDFKit.framework */;
+			name = Kanna;
+			productName = Kanna;
+			productReference = ACC9C7A46C75CBD8F5189FA924071B36 /* Kanna.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -972,87 +597,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7A0D87B8129429AC0954735CAC7941A4 /* Products */;
+			productRefGroup = FBA8BFB3F0B22EFBA7727ACA629CD241 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34E2FE02F69845D7E81F53D6DF22DC2E /* FontAwesomeIconFactory */,
-				F7370040C04EADB101B663AD4EDB88FC /* M13PDFKit */,
-				BA99DDAC73B1ED8E4B1629164038D9C6 /* M13PDFKit-M13PDFKitResources */,
-				B35D8E3C55C8E1EB6D42BC6D210E25BB /* Pods-Westview */,
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				C8F7054D982A7A5AD7861F725CFED7E6 /* Kanna */,
+				C8880951B72BF78EB8667408CE03C05C /* Pods-Westview */,
 				B178422787F9C9038054DE334D0DA281 /* Pods-WestviewTests */,
 				176880C5C6CF87C8408CBFD8264F15B9 /* Pods-WestviewUITests */,
-				594013F336E9839810CAB9013859422A /* TTOpenInAppActivity */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		02425E2A65D5868FD89A798375801146 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				103C41FB0D7ECD4259EC64A35A3CA977 /* Bookmark.png in Resources */,
-				04C6345C4EA91192CA9402EDF5F6960E /* Bookmark.psd in Resources */,
-				89EF51A086EE46FE5EBAF7318D59D5B0 /* Bookmark@2x.png in Resources */,
-				64CB482ECF70626BD0D160E9C5097FDF /* Bookmark@2x.psd in Resources */,
-				2610474EF4784D53428CE407822ADF24 /* Bookmark@3x.png in Resources */,
-				733B0DFF1413294C00010B55FE419EAC /* Bookmark@3x.psd in Resources */,
-				2C8B4236484C244F711D4FF5D33CF67C /* Bookmarked.png in Resources */,
-				0E01FACEA68B6F736D3D1E900686B32E /* Bookmarked.psd in Resources */,
-				F69ABC2FDB3498DD575A6DD4B729D6FD /* Bookmarked@2x.png in Resources */,
-				997258325E42E3D68F7E9A5EB45BBFB3 /* Bookmarked@2x.psd in Resources */,
-				096DF19C7322C0A4AA7A0B31CCD3FA6F /* Bookmarked@3x.png in Resources */,
-				79B36D385C2AF967D430A5F83322612A /* Bookmarked@3x.psd in Resources */,
-				54CA9DAE9DF1976EE14DC02BA2A5C302 /* PageList.png in Resources */,
-				3AB28B034FF9BE855B65E160A6F06779 /* PageList.psd in Resources */,
-				7ECCCFCC1661597FB89736082DB5BB85 /* PageList@2x.png in Resources */,
-				D8B04DB2B9DCE3EE18E4F4A1B6415E86 /* PageList@2x.psd in Resources */,
-				060D1A0E72C004CB512D760C50A69EB5 /* PageList@3x.png in Resources */,
-				7BDC96375FB2BF7F8F34F6B532CC2371 /* PageList@3x.psd in Resources */,
-				CB09A1C045F2D23F507FD2F2275DAE7A /* Thumbs.png in Resources */,
-				427E292E53A55D1B7607620CD43A6910 /* Thumbs.psd in Resources */,
-				B113C0D3CB532AF39FD73F097DB390DA /* Thumbs@2x.png in Resources */,
-				1DCB17D4CC007C6A665CC9061E7D1B62 /* Thumbs@2x.psd in Resources */,
-				C6E2345E9C5119A63C2CDD1091B034F8 /* Thumbs@3x.png in Resources */,
-				911A4569F0D4745FAB35C0217FD57D87 /* Thumbs@3x.psd in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1085396F81EE30DA77996EB25711AFAA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E6A63FCFD77D5BD896CF15D1B3EBFDA /* TTOpenInAppActivity.png in Resources */,
-				F5DC07A071881C9DF622A5FD5AB3BE5C /* TTOpenInAppActivity7.png in Resources */,
-				D9BA461FEF5D8E0C9C25C58400AB4427 /* TTOpenInAppActivity7@2x.png in Resources */,
-				82FE731BBB8D60DDB4A7F246F178B881 /* TTOpenInAppActivity@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D18F12C800257C84037F472C9DEFEAB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4158ECAFFDCDFD4051AF0E16CCE551AB /* M13PDFKitResources.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1D07005603DC6B645AF6EB9866C3076 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3647CBC44DF7AD5B3AF60BB3370570E /* FontAwesome.otf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		123DED70C96A9D97AD4A8CC6971EC0F2 /* Sources */ = {
+		0E68307F7D285513F5AAB597ACFBFB8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB1E26736A31A7C26B7EFF89FB9F203 /* Pods-Westview-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F630E659FE735B132547A46A27E416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33407F97A917787075A03F761CACD9D7 /* CSS.swift in Sources */,
+				5E1CA1B387CCAFC863C77723916E1DE9 /* Kanna-dummy.m in Sources */,
+				750994261F13A30B745AB38787E7EF21 /* Kanna.swift in Sources */,
+				7963E2B3225A300529604A64A943FA36 /* libxmlHTMLDocument.swift in Sources */,
+				38963A443753B582423740DDF9A4EB67 /* libxmlHTMLNode.swift in Sources */,
+				E7634EA3477C315974697BD9D78C81DB /* libxmlParserOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,6 +640,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6CD34808B3CC2CCA8591A61FCD6B70E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1072,92 +673,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80579344D93FF69978AF4844EF67FE29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C2B21268644AA6E2FFD102FF625829C /* CGPDFDocument.m in Sources */,
-				5EE7FC9C6663638A106748FA66B90973 /* M13PDFKit-dummy.m in Sources */,
-				8996B411E0C0BB4D625BF47DA0DD43FC /* PDFKBasicPDFViewer.m in Sources */,
-				390B03204973017D281D0262C71D55FB /* PDFKBasicPDFViewerSinglePageCollectionView.m in Sources */,
-				C7964E93336104D7EB83BB89C4EA77DE /* PDFKBasicPDFViewerThumbsCollectionView.m in Sources */,
-				98BE21D2035C136BBA6E7EC5FEFF23CD /* PDFKDocument.m in Sources */,
-				E9EADA0457CC0F2833FB5F076EAA283F /* PDFKPageContent.m in Sources */,
-				8D99066E1BC1725B731527B6BF200FB8 /* PDFKPageContentLayer.m in Sources */,
-				A8421B4508A8E47863D895736C512946 /* PDFKPageContentView.m in Sources */,
-				8E8B727C0F0009356450B831EC61C1B3 /* PDFKPageScrubber.m in Sources */,
-				854522D0972B6218BD35EF44E4C12B60 /* PDFKThumbCache.m in Sources */,
-				134B194CD45033C4ADB849654293D793 /* PDFKThumbFetcher.m in Sources */,
-				865BF833092734F990BF6663D4179EC3 /* PDFKThumbQueue.m in Sources */,
-				883008D38BDB61CFC1E7E09F79FD333B /* PDFKThumbRenderer.m in Sources */,
-				430D535E45440D62595314CA226A88F4 /* PDFKThumbRequest.m in Sources */,
-				496681EB5779132534D60420A1F023B0 /* PDFKThumbView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9756C48C5C2851AEAAD4EFE1E16DAA81 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D10447E5D397FCC58EB91D451EBD95B /* Pods-Westview-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0AEE274CA5C017039AC7A1614BAA944 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3788F2C3035A3BF423D83B6E42338310 /* TTOpenInAppActivity-dummy.m in Sources */,
-				C588352D205115A9A7AAB716E450D570 /* TTOpenInAppActivity.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1033E3C750890EA4CE6147742B52EFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3BE2A138DC99C21828CB35A208C44CC /* FontAwesomeIconFactory-dummy.m in Sources */,
-				249D9FF704A6DD743506F2C668EEE7E1 /* NIKFontAwesomeButton.m in Sources */,
-				45693C071F4BCE10F92F2C72C077C017 /* NIKFontAwesomeIconFactory.m in Sources */,
-				560A0832190341D2347B81702539427E /* NIKFontAwesomeImageView.m in Sources */,
-				B66F2E71FAC85E3AB5108E8AF1A6965C /* NIKFontAwesomePathFactory.m in Sources */,
-				2C5DA65BF16253AC720FE7EA008C0A00 /* NIKFontAwesomePathRenderer.m in Sources */,
-				34180612C8330003612981FE48AAD45E /* NIKFontAwesomeTabBarItem.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		126BFFC09397C88F77C409BA375B0996 /* PBXTargetDependency */ = {
+		C589AD57BC0216ED49D5156DC14D821C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TTOpenInAppActivity;
-			target = 594013F336E9839810CAB9013859422A /* TTOpenInAppActivity */;
-			targetProxy = 649469FF5C5E43D4E0DF4A322E353F29 /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 3EE607141E6CB223C0C1F2B2ABA19E1F /* PBXContainerItemProxy */;
 		};
-		5FA035B782621CDFDC68281521D5D6F7 /* PBXTargetDependency */ = {
+		CB2D0972C70E689AA1B37184F4BFD0C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = M13PDFKit;
-			target = F7370040C04EADB101B663AD4EDB88FC /* M13PDFKit */;
-			targetProxy = 07BCC10C149EE82A456CA195001896AB /* PBXContainerItemProxy */;
-		};
-		8FC9BE2626ADD01334C5A6BB63800F8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TTOpenInAppActivity;
-			target = 594013F336E9839810CAB9013859422A /* TTOpenInAppActivity */;
-			targetProxy = 7E12F4C956409959FA5956EFEF3071E0 /* PBXContainerItemProxy */;
-		};
-		A680C6E53F22A5E0E074A8B90FFD78E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FontAwesomeIconFactory;
-			target = 34E2FE02F69845D7E81F53D6DF22DC2E /* FontAwesomeIconFactory */;
-			targetProxy = BB0D5E783F44DA4B1EC4F8ACB233F675 /* PBXContainerItemProxy */;
-		};
-		FA8155DAEED0873B0AF66C88FFDAF41F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "M13PDFKit-M13PDFKitResources";
-			target = BA99DDAC73B1ED8E4B1629164038D9C6 /* M13PDFKit-M13PDFKitResources */;
-			targetProxy = DEA0D2F2F3810FBB8C16D48C4D82CE60 /* PBXContainerItemProxy */;
+			name = Kanna;
+			target = C8F7054D982A7A5AD7861F725CFED7E6 /* Kanna */;
+			targetProxy = 36182CE26531FEF9FE25458744476276 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1198,9 +727,9 @@
 			};
 			name = Release;
 		};
-		1005B335CD45DD5E9F87E15B77418CC5 /* Debug */ = {
+		1C6F4F37E2FF385F0FFF6C40E4CDFAD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4C918614C6AFF3181AAC08D0D191E7A /* M13PDFKit.xcconfig */;
+			baseConfigurationReference = 571D83E168DCB2EB34022E3B65EC7502 /* Pods-Westview.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1214,39 +743,28 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/M13PDFKit/M13PDFKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/M13PDFKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Westview/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/M13PDFKit/M13PDFKit.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Westview/Pods-Westview.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = M13PDFKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Westview;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		13D6F1188F4AE6B3C6F41E466F523F11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4C918614C6AFF3181AAC08D0D191E7A /* M13PDFKit.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/M13PDFKit";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/M13PDFKit/ResourceBundle-M13PDFKitResources-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = M13PDFKitResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		24FEBB605372BE79972242B20FE8EC73 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1320,6 +838,41 @@
 			};
 			name = Debug;
 		};
+		4D7E94E00F80B8A15794E7CF876BAD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7A3E648C0961F057E248F35069054D /* Kanna.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1368,9 +921,9 @@
 			};
 			name = Debug;
 		};
-		633166952A0A3FA52304C811B254FDB6 /* Release */ = {
+		4EAE786698A77DB67B06960BB4EED904 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3289940BF18B902299BEB5C97095972E /* FontAwesomeIconFactory.xcconfig */;
+			baseConfigurationReference = CB7A3E648C0961F057E248F35069054D /* Kanna.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1384,16 +937,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeIconFactory/FontAwesomeIconFactory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FontAwesomeIconFactory/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FontAwesomeIconFactory/FontAwesomeIconFactory.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FontAwesomeIconFactory;
+				PRODUCT_NAME = Kanna;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1401,42 +955,9 @@
 			};
 			name = Release;
 		};
-		6683B07B64F9E01355D28B9B751B719E /* Debug */ = {
+		7D072D0D174F12EAACC1862DA756E67A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3289940BF18B902299BEB5C97095972E /* FontAwesomeIconFactory.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeIconFactory/FontAwesomeIconFactory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FontAwesomeIconFactory/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FontAwesomeIconFactory/FontAwesomeIconFactory.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FontAwesomeIconFactory;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		68266962BB9F62932725513A9CF80013 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4C918614C6AFF3181AAC08D0D191E7A /* M13PDFKit.xcconfig */;
+			baseConfigurationReference = 0D472045B20081F8A00F043C9C34D9D8 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1450,16 +971,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/M13PDFKit/M13PDFKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/M13PDFKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/M13PDFKit/M13PDFKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = M13PDFKit;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1467,42 +989,9 @@
 			};
 			name = Release;
 		};
-		8635438BA8EC7D89AE34DB4959EB957C /* Debug */ = {
+		850685C6FC73A0276C4E7284FF31209A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3071495209254DA35FFAE12133ED00D0 /* TTOpenInAppActivity.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TTOpenInAppActivity/TTOpenInAppActivity-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTOpenInAppActivity/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTOpenInAppActivity/TTOpenInAppActivity.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TTOpenInAppActivity;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		97E477E9C468AC50E43B61797373B49D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3071495209254DA35FFAE12133ED00D0 /* TTOpenInAppActivity.xcconfig */;
+			baseConfigurationReference = FFF18EC3DE4CD516597022B5D61AE116 /* Pods-Westview.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1516,16 +1005,21 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TTOpenInAppActivity/TTOpenInAppActivity-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTOpenInAppActivity/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Westview/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTOpenInAppActivity/TTOpenInAppActivity.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Westview/Pods-Westview.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TTOpenInAppActivity;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Westview;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1561,42 +1055,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_WestviewTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B69AA07A24792EE22EDD92B6BAF3A701 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFF18EC3DE4CD516597022B5D61AE116 /* Pods-Westview.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Westview/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Westview/Pods-Westview.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Westview;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1649,26 +1107,9 @@
 			};
 			name = Release;
 		};
-		DA6F405592DBEC16741F15D6565F6122 /* Debug */ = {
+		C9660A42FEDD040185578ADA021EC8E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4C918614C6AFF3181AAC08D0D191E7A /* M13PDFKit.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/M13PDFKit";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/M13PDFKit/ResourceBundle-M13PDFKitResources-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = M13PDFKitResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		EBCBFB4BC1AD3976AD03E999CACA88FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 571D83E168DCB2EB34022E3B65EC7502 /* Pods-Westview.debug.xcconfig */;
+			baseConfigurationReference = 0D472045B20081F8A00F043C9C34D9D8 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1682,20 +1123,19 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Westview/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Westview/Pods-Westview.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Westview;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1705,6 +1145,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07E71A9A23619CD9CFC4798408C3E1FF /* Build configuration list for PBXNativeTarget "Kanna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7E94E00F80B8A15794E7CF876BAD2F /* Debug */,
+				4EAE786698A77DB67B06960BB4EED904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1714,20 +1163,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B5C658899129EA8058B762F9D475090 /* Build configuration list for PBXNativeTarget "Pods-Westview" */ = {
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBCBFB4BC1AD3976AD03E999CACA88FE /* Debug */,
-				B69AA07A24792EE22EDD92B6BAF3A701 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4194B5A2A137819A762ED12584CC9C86 /* Build configuration list for PBXNativeTarget "M13PDFKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1005B335CD45DD5E9F87E15B77418CC5 /* Debug */,
-				68266962BB9F62932725513A9CF80013 /* Release */,
+				C9660A42FEDD040185578ADA021EC8E0 /* Debug */,
+				7D072D0D174F12EAACC1862DA756E67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1750,29 +1190,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		824CCE4BE1EE10EAA046AA80B80EF7A4 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactory" */ = {
+		EC86013A77F8E5EA28C7121F441C1207 /* Build configuration list for PBXNativeTarget "Pods-Westview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6683B07B64F9E01355D28B9B751B719E /* Debug */,
-				633166952A0A3FA52304C811B254FDB6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E97C67B848DA59818DF55A893C3DA2A8 /* Build configuration list for PBXNativeTarget "TTOpenInAppActivity" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8635438BA8EC7D89AE34DB4959EB957C /* Debug */,
-				97E477E9C468AC50E43B61797373B49D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2475819148C93D0DBAE1889865A02C0 /* Build configuration list for PBXNativeTarget "M13PDFKit-M13PDFKitResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA6F405592DBEC16741F15D6565F6122 /* Debug */,
-				13D6F1188F4AE6B3C6F41E466F523F11 /* Release */,
+				1C6F4F37E2FF385F0FFF6C40E4CDFAD0 /* Debug */,
+				850685C6FC73A0276C4E7284FF31209A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

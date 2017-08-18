@@ -772,66 +772,47 @@
                                     <constraint firstAttribute="height" constant="40" id="xKh-Br-CAl"/>
                                 </constraints>
                             </stackView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yWO-Cj-h0D">
-                                <rect key="frame" x="0.0" y="139" width="414" height="548"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="announcementCell" rowHeight="120" id="Gfg-MJ-925" customClass="AnnouncementTableViewCell" customModule="Westview" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="120"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gfg-MJ-925" id="Cc9-E4-5JL">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="119.66666666666667"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lf9-Hj-AGR">
-                                                    <rect key="frame" x="8" y="8" width="398" height="103"/>
-                                                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </webView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="Lf9-Hj-AGR" firstAttribute="leading" secondItem="Cc9-E4-5JL" secondAttribute="leadingMargin" id="9o5-Bt-Mxl"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Lf9-Hj-AGR" secondAttribute="trailing" id="E77-3i-Rbj"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Lf9-Hj-AGR" secondAttribute="bottom" id="Rll-Hx-YJy"/>
-                                                <constraint firstItem="Lf9-Hj-AGR" firstAttribute="top" secondItem="Cc9-E4-5JL" secondAttribute="topMargin" id="VlS-gj-7bd"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="webView" destination="Lf9-Hj-AGR" id="b7N-qt-aTi"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="K5x-bo-PEL" id="n9m-1e-qo9"/>
-                                    <outlet property="delegate" destination="K5x-bo-PEL" id="9y3-4a-QbO"/>
-                                </connections>
-                            </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FC5-ks-Nhv">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="17"/>
                                 <color key="backgroundColor" red="0.082127340137958527" green="0.082225538790225983" blue="0.082142569124698639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r1K-lL-utm">
+                                <rect key="frame" x="10" y="143" width="394" height="544"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingAnnouncements" translatesAutoresizingMaskIntoConstraints="NO" id="YL7-O0-HLU">
+                                <rect key="frame" x="38" y="160" width="339" height="492"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Xgw-6b-4a1" firstAttribute="top" secondItem="3HE-79-cBa" secondAttribute="top" constant="17" id="48D-y0-7gg"/>
                             <constraint firstItem="Xgw-6b-4a1" firstAttribute="top" secondItem="FC5-ks-Nhv" secondAttribute="bottom" id="5KF-nc-cHz"/>
+                            <constraint firstItem="r1K-lL-utm" firstAttribute="top" secondItem="hif-Gm-rmy" secondAttribute="bottom" constant="18" id="5wq-Ap-0m3"/>
                             <constraint firstAttribute="trailing" secondItem="hif-Gm-rmy" secondAttribute="trailing" constant="10" id="8ex-fO-8bo"/>
-                            <constraint firstItem="yWO-Cj-h0D" firstAttribute="top" secondItem="hif-Gm-rmy" secondAttribute="bottom" constant="14" id="Fho-HX-YNx"/>
                             <constraint firstAttribute="trailing" secondItem="Xgw-6b-4a1" secondAttribute="trailing" id="GUH-Br-4hD"/>
+                            <constraint firstItem="YL7-O0-HLU" firstAttribute="top" secondItem="hif-Gm-rmy" secondAttribute="bottom" constant="35" id="GnW-JB-fft"/>
                             <constraint firstItem="FC5-ks-Nhv" firstAttribute="leading" secondItem="3HE-79-cBa" secondAttribute="leading" id="LPd-e1-df2"/>
                             <constraint firstItem="Xgw-6b-4a1" firstAttribute="leading" secondItem="3HE-79-cBa" secondAttribute="leading" id="M0j-pj-osk"/>
                             <constraint firstItem="FC5-ks-Nhv" firstAttribute="top" secondItem="3HE-79-cBa" secondAttribute="top" id="NIt-Zu-WHr"/>
+                            <constraint firstItem="hS5-MW-afI" firstAttribute="top" secondItem="YL7-O0-HLU" secondAttribute="bottom" constant="35" id="NJr-rM-lhc"/>
                             <constraint firstItem="hif-Gm-rmy" firstAttribute="top" secondItem="Xgw-6b-4a1" secondAttribute="bottom" constant="24" id="NWy-QR-v45"/>
-                            <constraint firstItem="hS5-MW-afI" firstAttribute="top" secondItem="yWO-Cj-h0D" secondAttribute="bottom" id="RBX-xP-tde"/>
                             <constraint firstAttribute="trailing" secondItem="FC5-ks-Nhv" secondAttribute="trailing" id="cHI-mO-Fb4"/>
-                            <constraint firstItem="yWO-Cj-h0D" firstAttribute="leading" secondItem="3HE-79-cBa" secondAttribute="leading" id="hOR-jv-ebq"/>
-                            <constraint firstAttribute="trailing" secondItem="yWO-Cj-h0D" secondAttribute="trailing" id="j9c-iT-Lb7"/>
+                            <constraint firstItem="hS5-MW-afI" firstAttribute="top" secondItem="r1K-lL-utm" secondAttribute="bottom" id="hT9-RR-pdD"/>
+                            <constraint firstItem="r1K-lL-utm" firstAttribute="leading" secondItem="3HE-79-cBa" secondAttribute="leading" constant="10" id="nne-7Z-odc"/>
+                            <constraint firstItem="YL7-O0-HLU" firstAttribute="leading" secondItem="3HE-79-cBa" secondAttribute="leadingMargin" constant="18" id="oD1-te-eQV"/>
+                            <constraint firstAttribute="trailing" secondItem="r1K-lL-utm" secondAttribute="trailing" constant="10" id="rlp-22-GaJ"/>
                             <constraint firstItem="hif-Gm-rmy" firstAttribute="leading" secondItem="3HE-79-cBa" secondAttribute="leading" constant="10" id="ss8-EF-9wY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YL7-O0-HLU" secondAttribute="trailing" constant="17" id="vJK-oC-IDX"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="W8f-72-u0h"/>
                     <connections>
-                        <outlet property="announcementView" destination="yWO-Cj-h0D" id="0cn-Yc-1rE"/>
+                        <outlet property="attendanceView" destination="2VZ-By-1bV" id="8xL-Ci-XZX"/>
+                        <outlet property="canvasView" destination="QzR-e2-8Al" id="vm6-Yn-WT4"/>
+                        <outlet property="gradesView" destination="PtQ-h1-hUD" id="H2P-wf-nPV"/>
+                        <outlet property="loadingImage" destination="YL7-O0-HLU" id="XyI-u2-LPQ"/>
+                        <outlet property="webView" destination="r1K-lL-utm" id="yN8-gc-BhV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N6v-we-0Ug" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -870,6 +851,7 @@
         <image name="canvas" width="1166" height="1166"/>
         <image name="grades" width="1040" height="940"/>
         <image name="home" width="25" height="25"/>
+        <image name="loadingAnnouncements" width="297" height="368"/>
         <image name="map" width="25" height="25"/>
         <image name="more" width="25" height="25"/>
         <image name="phone" width="121" height="184"/>

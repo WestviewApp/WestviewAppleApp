@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E2AD12DDE2100F64BE1B377 /* Pods_WestviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737C9823A26DF637942171E7 /* Pods_WestviewUITests.framework */; };
 		6FAD1E4D3C383BF49B3CCF94 /* Pods_Westview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7894C9EFB90DC212413D9C57 /* Pods_Westview.framework */; };
+		A62885621F4697CF006CE243 /* handbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A62885611F4697C0006CE243 /* handbook.pdf */; };
 		A62C4B731F4416D800B6D318 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62C4B721F4416D800B6D318 /* CalendarViewController.swift */; };
 		A62C4B751F441D5600B6D318 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62C4B741F441D5600B6D318 /* Extensions.swift */; };
 		A62C4B771F441DEA00B6D318 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62C4B761F441DEA00B6D318 /* MapViewController.swift */; };
@@ -71,6 +72,7 @@
 		7894C9EFB90DC212413D9C57 /* Pods_Westview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Westview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921525A1CA68780BD1F097B7 /* Pods-WestviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestviewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WestviewTests/Pods-WestviewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		925F504FF485DCD253AE0AC8 /* Pods-WestviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WestviewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WestviewTests/Pods-WestviewTests.release.xcconfig"; sourceTree = "<group>"; };
+		A62885611F4697C0006CE243 /* handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = handbook.pdf; sourceTree = "<group>"; };
 		A62C4B721F4416D800B6D318 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		A62C4B741F441D5600B6D318 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A62C4B761F441DEA00B6D318 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +97,6 @@
 		A62DD7EE1F4255E90062CAD9 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 		A6836AD91F44267E003739CC /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
 		A6A6A9B41F44EA9C00D7668A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		A6A6A9B61F44EC9700D7668A /* handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = handbook.pdf; sourceTree = "<group>"; };
 		A6A6A9B71F4558B600D7668A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A6C15B431F42B92D00890CE7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A6C15B481F42BD3500890CE7 /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
@@ -172,6 +173,7 @@
 		A62C4B6E1F44169F00B6D318 /* HandbookVC */ = {
 			isa = PBXGroup;
 			children = (
+				A62885611F4697C0006CE243 /* handbook.pdf */,
 				A62C4B7A1F441E1100B6D318 /* HandbookViewController.swift */,
 			);
 			name = HandbookVC;
@@ -281,7 +283,6 @@
 		A6EDA2531F32C07700A7ADA3 /* Westview */ = {
 			isa = PBXGroup;
 			children = (
-				A6A6A9B61F44EC9700D7668A /* handbook.pdf */,
 				A6C15B451F42BCFC00890CE7 /* Code */,
 				A62DD7ED1F4255D60062CAD9 /* Font Awesome */,
 				A62DD7B81F4254F50062CAD9 /* Roboto */,
@@ -432,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62885621F4697CF006CE243 /* handbook.pdf in Resources */,
 				A62DD7E41F42556C0062CAD9 /* Roboto-CondensedItalic.ttf in Resources */,
 				A62DD7E51F42556C0062CAD9 /* Roboto-Italic.ttf in Resources */,
 				A62DD7E71F42556C0062CAD9 /* Roboto-LightItalic.ttf in Resources */,

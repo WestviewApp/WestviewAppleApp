@@ -7,45 +7,90 @@
 //
 
 import UIKit
+import Kanna
+import Alamofire
 
-
-class AnnouncementViewController: LightVC, UITableViewDelegate, UITableViewDataSource {
+class AnnouncementViewController: LightVC, UIWebViewDelegate {
 
     typealias Announcement = String
     var announcements: [Announcement] = []
     
+    @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var announcementView: UITableView!
+    let url = "https://www.powayusd.com/en-US/Schools/HS/WVHS/home/Announcements"
+    @IBOutlet weak var attendanceView: CardView!
+    @IBOutlet weak var gradesView: CardView!
+    @IBOutlet weak var canvasView: CardView!
+    @IBOutlet weak var loadingImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addAnnouncement(html: "<div class=newsItem><p><strong><a href=/en-US/Schools/HS/WVHS/Home/Announcements/College-Math-Classes-after-AP-Calculus-BC>College Math Classes after AP Calculus BC</a></strong><p>Students may enroll in math courses, including Multivariable Calculus (Calculus III), Linear Algebra, and Differential Equations, and earn college credit via Palomar and UCSD. Offerings are for Summer, Fall and Spring and registration has begun for some of these courses already. Click here to view the details of these courses and instructions on registering. Contact Diana Loo, dloo@powayusd.com with questions.</div>")
-        self.announcementView.reloadData()
-    }
-    func addAnnouncement(html: String) {
-        let css = "<style>@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);.newsItem p strong a{text-decoration:none;color:#000}.newsItem p{font-family:Roboto,sans-serif;color:#000}</style>"
-        let total = "\(css)\(html)"
-        self.announcements.append(total)
-    }
-    
-    // MARK Table View Methods
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("Total of \(announcements.count) announcements!)")
-        return announcements.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "announcementCell") as! AnnouncementTableViewCell
+        self.webView.delegate = self
+        //webView.loadRequest(URLRequest(url: URL(string: "https://www.powayusd.com/en-US/Schools/HS/WVHS/home/Announcements")!))
+        scrapeAnnouncements()
         
-        cell.webView.loadHTMLString(self.announcements[indexPath.row], baseURL: nil)
-        return cell
+        let touchGestureGrades = UITapGestureRecognizer(target: self, action:  #selector (self.openSynergy (_:)))
+        let touchGestureCanvas = UITapGestureRecognizer(target: self, action:  #selector (self.openCanvas(_:)))
+        let touchGestureAttendance = UITapGestureRecognizer(target: self, action:  #selector (self.openAttendance(_:)))
+        self.gradesView.addGestureRecognizer(touchGestureGrades)
+        self.canvasView.addGestureRecognizer(touchGestureCanvas)
+        self.attendanceView.addGestureRecognizer(touchGestureAttendance)
+        
+
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        let announcement = self.announcements[indexPath.row]
-        let rows = announcement.components(separatedBy: "\n").count
-        return CGFloat(20 * rows)
+    func openSynergy(_ sender:UITapGestureRecognizer) {
+        UIApplication.shared.openURL(URL(string: "https://sis.powayusd.com")!)
     }
+    
+    func openCanvas(_ sender: UITapGestureRecognizer) {
+        UIApplication.shared.openURL(URL(string: "https://poway.instructure.com")!)
+    }
+    func openAttendance(_ sender: UITapGestureRecognizer) {
+        UIApplication.shared.openURL(URL(string: "https://www.powayusd.com/en-US/Schools/HS/WVHS/parent-Resources/Attendance")!)
+    }
+    
+    
+    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+        self.loadingImage.isHidden = true
+        let url = request.url!.absoluteString
+        if url.range(of: "applewebdata") != nil {
+            var link = url.components(separatedBy: "en-US/")[1]
+            link = "https://www.powayusd.com/en-US/\(link)"
+            UIApplication.shared.openURL(URL(string: link)!)
+            return false
+        }
+        
+        return true
+    }
+    
+    func scrapeAnnouncements() -> Void {
+        Alamofire.request(url).responseString { response in
+            print("\(response.result.isSuccess)")
+            if let html = response.result.value {
+                self.parseHTML(html: html)
+            }
+        }
+    }
+    
+    func parseHTML(html: String) -> Void {
+        if let doc = Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
+            for newsList in doc.css("div[class^='newsList']") {
+                //let newsListString = newsList.text!.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+                
+                
+                let _ = newsList.toHTML
+                if(newsList.text != nil) {
+                    let h = newsList.toHTML
+                    let css = "<style>@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');.newsItem p{font-family: 'Roboto', sans-serif; font-family: 400; font-size: 15px; color: #8F8E94;}.newsItem p strong a{font-weight: 500; font-size: 17px; color: #030303; text-decoration: none;}</style>"
+                    let final = h! + css
+                    webView.loadHTMLString(final, baseURL: nil)
+                }
+                //webView.loadHTMLString(newsList?.toHTML, baseURL: nil)
+            }
+        }
+    }
+    
     
 
 
