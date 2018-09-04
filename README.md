@@ -3,7 +3,7 @@
 
 Here you will find the source code behind the westview high school app.
 
-Designed and architected by [Ronak Shah](https://github.com/ronakdev), the app itself was coded mainly by [Ronak Shah](https://github.com/ronakdev/), [Deepali Jain](https://github.com/deepalijain), [Mattie Sanseverino](https://github.com/mattiesansev), Anushka Gupta, and Rhea Jogadhenu, with a sponsorship from the Westview WICS club, advised by Tammy Neuhaus.
+Designed and architected by [Ronak Shah](https://github.com/ronakdev), the app itself was coded mainly by [Ronak Shah](https://github.com/ronakdev/), [Deepali Jain](https://github.com/deepalijain), [Mattie Sanseverino](https://github.com/mattiesansev), and [Anushka Gupta](https://github.com/anug8628), with a sponsorship from the Westview WICS club, advised by Tammy Neuhaus.
 
 ## App Store Links
 
