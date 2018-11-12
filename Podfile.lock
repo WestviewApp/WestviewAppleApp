@@ -15,6 +15,12 @@ DEPENDENCIES:
   - GooglePlaces
   - Kanna (from `https://github.com/tid-kijyun/Kanna.git`, branch `swift3.0`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+
 EXTERNAL SOURCES:
   Kanna:
     :branch: swift3.0
@@ -33,4 +39,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: cc2063b99003e84455330f4b60fd58d214c66a0d
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3

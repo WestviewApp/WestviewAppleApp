@@ -39,14 +39,14 @@ class AnnouncementViewController: LightVC, UIWebViewDelegate {
 
     }
     
-    func openSynergy(_ sender:UITapGestureRecognizer) {
+    @objc func openSynergy(_ sender:UITapGestureRecognizer) {
         UIApplication.shared.openURL(URL(string: "https://sis.powayusd.com")!)
     }
     
-    func openCanvas(_ sender: UITapGestureRecognizer) {
+    @objc func openCanvas(_ sender: UITapGestureRecognizer) {
         UIApplication.shared.openURL(URL(string: "https://poway.instructure.com")!)
     }
-    func openAttendance(_ sender: UITapGestureRecognizer) {
+    @objc func openAttendance(_ sender: UITapGestureRecognizer) {
         UIApplication.shared.openURL(URL(string: "https://www.powayusd.com/en-US/Schools/HS/WVHS/parent-Resources/Attendance")!)
     }
     
