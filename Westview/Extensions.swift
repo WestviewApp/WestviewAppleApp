@@ -25,10 +25,10 @@ struct commonColors {
 struct schedules {
     static func getSchedule(for day: String) -> [(String, String, String)] {
         switch day {
-        case "Monday", "Friday":
-            return monfri
-        case "Tuesday", "Thursday":
-            return tueThu
+        case "Monday", "Thursday":
+            return monThu
+        case "Tuesday", "Friday":
+            return tueFri
         case "Wednesday":
             return wed
         case "finals 1":
@@ -54,33 +54,32 @@ struct schedules {
         ("4", "10:35", "12:35")
     ]
     
-    static let monfri: [(String, String, String)] = [
+    static let monThu: [(String, String, String)] = [
         ("Period", "Start", "End"),
-        ("1", "8:05", "9:33"),
-        ("Homeroom", "9:39", "9:54"),
-        ("2", "10:00", "11:28"),
-        ("Lunch", "11:28", "12:02"),
-        ("3", "12:08", "1:36"),
-        ("4", "1:42", "3:10"),
+        ("1", "8:00", "9:20"),
+        ("2", "9:30", "10:50"),
+        ("Homeroom", "11:00", "11:25"),
+        ("Lunch", "11:25", "12:05"),
+        ("3", "12:10", "1:30"),
+        ("4", "1:40", "3:00"),
         ]
-    static let tueThu: [(String, String, String)] = [
+    static let tueFri: [(String, String, String)] = [
         ("Period", "Start", "End"),
-        ("1", "8:05", "9:26"),
-        ("Wolverine Time", "9:26", "9:54"),
-        ("2", "10:00", "11:21"),
-        ("Lunch", "11:21", "11:56"),
-        ("SSR", "12:02", "12:22"),
-        ("3", "12:22", "1:43"),
-        ("4", "1:49", "3:10"),
+        ("1", "8:00", "9:20"),
+        ("2", "9:30", "10:50"),
+        ("Office Hours", "11:00", "11:25"),
+        ("Lunch", "11:25", "12:05"),
+        ("3", "12:10", "1:30"),
+        ("4", "1:40", "3:00"),
         ]
     static let wed: [(String, String, String)] = [
         ("Period", "Start", "End"),
-        ("1", "9:15", "10:25"),
-        ("Homeroom", "10:31", "10:46"),
-        ("2", "10:52", "12:02"),
-        ("Lunch", "12:02", "12:38"),
-        ("3", "12:44", "1:54"),
-        ("4", "2:00", "3:10"),
+        ("Office Hours", "9:10", "9:45"),
+        ("1", "9:55", "10:55"),
+        ("2", "11:05", "12:05"),
+        ("Lunch", "12:05", "12:45"),
+        ("3", "12:50", "1:50"),
+        ("4", "2:00", "3:00"),
         ]
 }
 
