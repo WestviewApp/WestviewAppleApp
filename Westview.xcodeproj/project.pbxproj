@@ -516,7 +516,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Westview/Pods-Westview-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Westview/Pods-Westview-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
@@ -527,7 +527,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Westview/Pods-Westview-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Westview/Pods-Westview-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		88C3276549C335B98D9257EB /* [CP] Check Pods Manifest.lock */ = {
@@ -572,7 +572,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Westview/Pods-Westview-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Westview/Pods-Westview-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
 			);
@@ -583,7 +583,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Westview/Pods-Westview-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Westview/Pods-Westview-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

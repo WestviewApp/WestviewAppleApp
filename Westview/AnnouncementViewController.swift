@@ -74,7 +74,10 @@ class AnnouncementViewController: LightVC, UIWebViewDelegate {
     }
     
     func parseHTML(html: String) -> Void {
-        if let doc = Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
+        
+        do
+        {
+             let doc = try Kanna.HTML(html: html, encoding: String.Encoding.utf8)
             for newsList in doc.css("div[class^='newsList']") {
                 //let newsListString = newsList.text!.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
                 
@@ -88,6 +91,8 @@ class AnnouncementViewController: LightVC, UIWebViewDelegate {
                 }
                 //webView.loadHTMLString(newsList?.toHTML, baseURL: nil)
             }
+        }catch{
+            print(error)
         }
     }
     

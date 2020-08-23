@@ -78,11 +78,11 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch currentDay {
-        case "Monday", "Friday":
+        case "Monday", "Thursday":
             return 7
-        case "Tuesday", "Thursday":
-            return 8
-        case "Wednesday", "Friday":
+        case "Tuesday", "Friday":
+            return 7
+        case "Wednesday":
             return 7
         case "finals 1", "finals 2":
             return 5

@@ -7,36 +7,27 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (2.4.0):
     - GoogleMaps/Base (= 2.4.0)
-  - Kanna (2.0.0)
+  - Kanna (5.2.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.2.0)
   - GoogleMaps
   - GooglePlaces
-  - Kanna (from `https://github.com/tid-kijyun/Kanna.git`, branch `swift3.0`)
+  - Kanna (~> 5.2.2)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
     - GoogleMaps
     - GooglePlaces
-
-EXTERNAL SOURCES:
-  Kanna:
-    :branch: swift3.0
-    :git: https://github.com/tid-kijyun/Kanna.git
-
-CHECKOUT OPTIONS:
-  Kanna:
-    :commit: 109249451c32e14dac541bfbfeaa91b4dcb47a87
-    :git: https://github.com/tid-kijyun/Kanna.git
+    - Kanna
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
   GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
   GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
-  Kanna: 8d60d86a3580f7dee732811e5163a5e3e41a32a7
+  Kanna: 2c4eddaaa4bfb9a1ed19e53c0b3d42ef02838046
 
-PODFILE CHECKSUM: cc2063b99003e84455330f4b60fd58d214c66a0d
+PODFILE CHECKSUM: 37e9820f2c81b2f793698d74757b5dab0302930a
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3
