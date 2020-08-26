@@ -21,6 +21,7 @@ class AnnouncementViewController: LightVC, UIWebViewDelegate {
     @IBOutlet weak var attendanceView: CardView!
     @IBOutlet weak var gradesView: CardView!
     @IBOutlet weak var canvasView: CardView!
+    @IBOutlet weak var hotlineView: CardView!
     @IBOutlet weak var loadingImage: UIImageView!
     
     override func viewDidLoad() {
@@ -32,10 +33,11 @@ class AnnouncementViewController: LightVC, UIWebViewDelegate {
         let touchGestureGrades = UITapGestureRecognizer(target: self, action:  #selector (self.openSynergy (_:)))
         let touchGestureCanvas = UITapGestureRecognizer(target: self, action:  #selector (self.openCanvas(_:)))
         let touchGestureAttendance = UITapGestureRecognizer(target: self, action:  #selector (self.openAttendance(_:)))
+        let touchGestureHotline = UITapGestureRecognizer(target: self, action:  #selector (self.openHotline(_:)))
         self.gradesView.addGestureRecognizer(touchGestureGrades)
         self.canvasView.addGestureRecognizer(touchGestureCanvas)
         self.attendanceView.addGestureRecognizer(touchGestureAttendance)
-        
+        self.hotlineView.addGestureRecognizer(touchGestureHotline)
 
     }
     
@@ -48,6 +50,9 @@ class AnnouncementViewController: LightVC, UIWebViewDelegate {
     }
     @objc func openAttendance(_ sender: UITapGestureRecognizer) {
         UIApplication.shared.openURL(URL(string: "https://www.powayusd.com/en-US/Schools/HS/WVHS/parent-Resources/Attendance")!)
+    }
+    @objc func openHotline(_ sender: UITapGestureRecognizer) {
+        UIApplication.shared.openURL(URL(string: "https://www.powayusd.com/en-US/Departments/Student-Support-Services/Safety/Safety-Information")!)
     }
     
     
