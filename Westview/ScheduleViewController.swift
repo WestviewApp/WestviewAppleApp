@@ -76,14 +76,17 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
         return cell
     }
     
+
+// return number is number of rows for the schedule
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch currentDay {
         case "Monday", "Thursday":
             return 7
-        case "Tuesday", "Friday":
+        case "Tuesday", "Wednesday":
             return 7
-        case "Wednesday":
-            return 7
+        case "Friday":
+            return 6
         case "finals 1", "finals 2":
             return 5
         default:
