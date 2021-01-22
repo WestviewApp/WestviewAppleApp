@@ -1,4 +1,4 @@
-//
+s//
 //  Extensions.swift
 //  Westview
 //
@@ -25,12 +25,12 @@ struct commonColors {
 struct schedules {
     static func getSchedule(for day: String) -> [(String, String, String)] {
         switch day {
-        case "Monday", "Thursday":
-            return monThu
-        case "Tuesday", "Friday":
-            return tueFri
-        case "Wednesday":
-            return wed
+        case "Monday" :
+            return mon
+        case "Tuesday","Wednesday","Thursday":
+            return tueWedThur
+        case "Friday":
+            return fri
         case "finals 1":
             return finals1
         case "finals 2":
@@ -54,35 +54,27 @@ struct schedules {
         ("4", "10:35", "12:35")
     ]
     
-    static let monThu: [(String, String, String)] = [
+    static let mon: [(String, String, String)] = [
         ("Period", "Start", "End"),
-        ("1", "8:00", "9:20"),
-        ("2", "9:30", "10:50"),
-        ("Homeroom", "11:00", "11:25"),
-        ("Lunch", "11:25", "12:05"),
-        ("3", "12:10", "1:30"),
-        ("4", "1:40", "3:00"),
+        ("1", "8:05", "9:25"),
+        ("2", "9:35", "10:55"),
+        ("Homeroom", "11:05", "11:30"),
+        ("Lunch", "11:30", "12:20"),
+        ("3", "12:20", "1:40"),
+        ("4", "1:50", "3:10"),
         ]
-    static let tueFri: [(String, String, String)] = [
+    static let tueWedThur: [(String, String, String)] = [
         ("Period", "Start", "End"),
-        ("1", "8:00", "9:20"),
-        ("2", "9:30", "10:50"),
-        ("Office Hours", "11:00", "11:25"),
-        ("Lunch", "11:25", "12:05"),
-        ("3", "12:10", "1:30"),
-        ("4", "1:40", "3:00"),
-        ]
-    static let wed: [(String, String, String)] = [
-        ("Period", "Start", "End"),
-        ("Office Hours", "9:10", "9:45"),
-        ("1", "9:55", "10:55"),
-        ("2", "11:05", "12:05"),
-        ("Lunch", "12:05", "12:45"),
-        ("3", "12:50", "1:50"),
-        ("4", "2:00", "3:00"),
+        ("1", "8:05", "9:25"),
+        ("2", "9:35", "10:55"),
+        ("Office Hours", "11:05", "11:30"),
+        ("Lunch", "11:30", "12:20"),
+        ("3", "12:20", "1:40"),
+        ("4", "1:50", "3:10"),
         ]
     
-        static let frid: [(String, String, String)] = [
+    
+        static let fri: [(String, String, String)] = [
         ("Period", "Start", "End"),
         ("1", "9:00", "10:20"),
         ("2", "10:30", "11:50"),
