@@ -73,6 +73,12 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
         cell.left.text! = data[indexPath.row].0
         cell.mid.text! = data[indexPath.row].1
         cell.right.text! = data[indexPath.row].2
+        
+        /* set color of the text for the cells*/
+        cell.left.textColor = UIColor.black
+        cell.mid.textColor = UIColor.black
+        cell.right.textColor = UIColor.black
+
         return cell
     }
     
