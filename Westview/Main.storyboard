@@ -84,7 +84,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2ay-Vn-J8u"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zbE-Qz-TEn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2i-2a-b0c">
@@ -118,7 +118,7 @@
                                 </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XeR-e1-UaO">
-                                <rect key="frame" x="16" y="135" width="382" height="678"/>
+                                <rect key="frame" x="16" y="135" width="382" height="624"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="afu-k9-ANU" customClass="ScheduleTableViewCell" customModule="Westview" customModuleProvider="target">
@@ -214,7 +214,7 @@
                         <viewControllerLayoutGuide type="bottom" id="viY-dI-uLj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="I2G-Lv-YXi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kUw-mt-8Pr">
@@ -337,7 +337,7 @@
                         <viewControllerLayoutGuide type="bottom" id="tpS-zm-Oh5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="N1a-rZ-e9b">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWi-oc-NEa">
@@ -537,7 +537,7 @@
                         <viewControllerLayoutGuide type="bottom" id="hS5-MW-afI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3HE-79-cBa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xgw-6b-4a1">
@@ -551,14 +551,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Westview High School" id="qyU-y2-e4y">
-                                        <barButtonItem key="rightBarButtonItem" image="more" id="p6c-gL-my2">
-                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <connections>
-                                                <segue destination="hqI-zM-Irb" kind="show" id="ndG-tn-aau"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem title="Westview High School" id="qyU-y2-e4y"/>
                                 </items>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hif-Gm-rmy">
@@ -761,12 +754,12 @@
                                 <color key="backgroundColor" red="0.082127340137958527" green="0.082225538790225983" blue="0.082142569124698639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r1K-lL-utm">
-                                <rect key="frame" x="10" y="143" width="394" height="670"/>
+                                <rect key="frame" x="10" y="143" width="394" height="616"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </webView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingAnnouncements" translatesAutoresizingMaskIntoConstraints="NO" id="YL7-O0-HLU">
-                                <rect key="frame" x="38" y="160" width="339" height="618"/>
+                                <rect key="frame" x="38" y="160" width="339" height="564"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -905,7 +898,6 @@
         <image name="home" width="25" height="25"/>
         <image name="loadingAnnouncements" width="297" height="368"/>
         <image name="map" width="25" height="25"/>
-        <image name="more" width="25" height="25"/>
         <image name="phone" width="121" height="184"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

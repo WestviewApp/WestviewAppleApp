@@ -65,11 +65,11 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
         let data = schedules.getSchedule(for: self.currentDay)
         if indexPath.row == 0 {
             cell.setTitle()
-            print("setting title")
+           // print("setting title")
         }
         else {
             cell.setContent()
-            print("setting content")
+           // print("setting content")
         }
         cell.left.text! = data[indexPath.row].0
         cell.mid.text! = data[indexPath.row].1
