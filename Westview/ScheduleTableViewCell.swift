@@ -30,6 +30,16 @@ class ScheduleTableViewCell: UITableViewCell {
         self.left.font = UIFont(name: "Roboto", size: 13)
         self.mid.font = UIFont(name: "Roboto", size: 13)
         self.right.font = UIFont(name: "Roboto", size: 13)
+        /* set color of the text for the cells*/
+        if #available(iOS 13.0, *) {
+            self.left.textColor = UIColor.label
+            self.mid.textColor = UIColor.label
+            self.right.textColor = UIColor.label
+        } else {
+            self.left.textColor = UIColor(red: 0.3, green: 0.4, blue: 0.5, alpha: 1)
+            self.mid.textColor = UIColor(red: 0.3, green: 0.4, blue: 0.5, alpha: 1)
+            self.right.textColor = UIColor(red: 0.3, green: 0.4, blue: 0.5, alpha: 1)
+        }
     }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

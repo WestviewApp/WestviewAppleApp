@@ -21,6 +21,7 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
         super.viewDidLoad()
         self.tableView.tableFooterView = UIView(frame: .zero)
         self.tableView.separatorStyle = .singleLine
+       
 //        navigationController?.navigationBar.tintColor = commonColors.darkGold
 //        navigationController?.navigationBar.barTintColor = commonColors.coolBlack
         
@@ -74,10 +75,8 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
         cell.mid.text! = data[indexPath.row].1
         cell.right.text! = data[indexPath.row].2
         
-        /* set color of the text for the cells*/
-        cell.left.textColor = UIColor.black
-        cell.mid.textColor = UIColor.black
-        cell.right.textColor = UIColor.black
+
+       
 
         return cell
     }

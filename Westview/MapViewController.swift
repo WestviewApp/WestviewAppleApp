@@ -9,7 +9,14 @@
 import UIKit
 //import MapKit
 //import GoogleMaps
-
+extension String {
+  func stringByAddingPercentEncodingForRFC3986() -> String? {
+    let unreserved = "-._~/?"
+    let allowed = NSMutableCharacterSet.alphanumeric()
+    allowed.addCharacters(in: unreserved)
+    return addingPercentEncoding(withAllowedCharacters: allowed as CharacterSet)
+  }
+}
 class MapViewController: LightVC { //}, GMSMapViewDelegate,CLLocationManagerDelegate {
 
     @IBOutlet weak var webView: UIWebView!
@@ -21,8 +28,17 @@ class MapViewController: LightVC { //}, GMSMapViewDelegate,CLLocationManagerDele
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.locationManager.startUpdatingLocation()
-
-        self.webView.loadRequest(URLRequest(url: URL(string: "https://www.google.com/maps/d/embed?mid=1UuI1sahr6xefo4F-uFgtxNIS_yw")!))
+     /*   let url = NSURL (string: "https://www.google.com/maps/d/embed?mid=1UuI1sahr6xefo4F-uFgtxNIS_yw");
+        let request = NSURLRequest(URL: url as! URL);
+        self.webView.loadRequest(request)*/
+        var string = "https://www.google.com/maps/d/embed?mid=1UuI1sahr6xefo4F-uFgtxNIS_yw"
+        
+        if let url = URL(string: string) {
+               let request = URLRequest(url: url)
+               webView.loadRequest(request)
+           } else {
+       // Do something like. Show an alert that could not load webpage etc.
+       }
     }
     
     /*
