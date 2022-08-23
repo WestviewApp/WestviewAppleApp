@@ -41,6 +41,7 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
     
     func getCurrentDay() {
         let day = Date().dayOfWeek()!
+        print("day");
         let index = days.index(of: day)
         if Date().isFinals() != -1 {
             self.currentDay = "finals \(Date().isFinals())"
@@ -86,14 +87,14 @@ class ScheduleViewController: LightVC, UITableViewDataSource, UITableViewDelegat
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch currentDay {
-        case "Monday", "Thursday":
+        case "Monday", "Friday":
             return 7
-        case "Tuesday", "Wednesday":
+        case "Tuesday", "Thursday":
+            return 8
+        case "Wednesday":
             return 7
-        case "Friday":
-            return 6
         case "finals 1", "finals 2":
-            return 5
+            return 4
         default:
             return 0
         }

@@ -17,12 +17,11 @@ extension String {
     return addingPercentEncoding(withAllowedCharacters: allowed as CharacterSet)
   }
 }
-class MapViewController: LightVC { //}, GMSMapViewDelegate,CLLocationManagerDelegate {
+class MapViewController: UIViewController { //}, GMSMapViewDelegate,CLLocationManagerDelegate {
 
     @IBOutlet weak var webView: UIWebView!
 //    @IBOutlet weak var mapView: GMSMapView!
 //    var locationManager = CLLocationManager()
-
     
     
     override func viewDidLoad() {
@@ -32,13 +31,11 @@ class MapViewController: LightVC { //}, GMSMapViewDelegate,CLLocationManagerDele
         let request = NSURLRequest(URL: url as! URL);
         self.webView.loadRequest(request)*/
         var string = "https://www.google.com/maps/d/embed?mid=1UuI1sahr6xefo4F-uFgtxNIS_yw"
-        
-        if let url = URL(string: string) {
-               let request = URLRequest(url: url)
-               webView.loadRequest(request)
-           } else {
-       // Do something like. Show an alert that could not load webpage etc.
-       }
+        let indexPaths = NSURL(string: "http://tutlane.com/");
+        let requestObj = NSURLRequest(url: indexPaths! as URL);
+        webView.loadRequest(requestObj as URLRequest);
+
+
     }
     
     /*

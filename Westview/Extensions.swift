@@ -25,12 +25,12 @@ struct commonColors {
 struct schedules {
     static func getSchedule(for day: String) -> [(String, String, String)] {
         switch day {
-        case "Monday" :
-            return mon
-        case "Tuesday","Wednesday","Thursday":
-            return tueWedThur
-        case "Friday":
-            return fri
+        case "Monday", "Friday" :
+            return monFri
+        case "Tuesday","Thursday":
+            return tuesThurs
+        case "Wednesday":
+            return wed
         case "finals 1":
             return finals1
         case "finals 2":
@@ -43,44 +43,44 @@ struct schedules {
         ("Period", "Start", "End"),
         ("1", "8:05", "10:05"),
         ("Lunch", "10:05", "10:29"),
-        ("Passing", "10:29", "10:35"),
         ("2", "10:35", "12:35")
     ]
     static let finals2: [(String, String, String)] = [
         ("Period", "Start", "End"),
         ("3", "8:05", "10:05"),
         ("Lunch", "10:05", "10:29"),
-        ("Passing", "10:29", "10:35"),
         ("4", "10:35", "12:35")
     ]
     
-    static let mon: [(String, String, String)] = [
+    static let monFri: [(String, String, String)] = [
         ("Period", "Start", "End"),
-        ("1", "8:05", "9:25"),
-        ("2", "9:35", "10:55"),
-        ("Homeroom", "11:05", "11:30"),
-        ("Lunch", "11:30", "12:20"),
-        ("3", "12:20", "1:40"),
-        ("4", "1:50", "3:10"),
+        ("1", "8:35", "10:04"),
+        ("Homeroom", "10:10", "10:25"),
+        ("2", "10:31", "12:00"),
+        ("Lunch", "12:00", "12:35"),
+        ("3", "12:41", "2:10"),
+        ("4", "2:16", "3:45"),
         ]
-    static let tueWedThur: [(String, String, String)] = [
+    static let tuesThurs: [(String, String, String)] = [
         ("Period", "Start", "End"),
-        ("1", "8:05", "9:25"),
-        ("2", "9:35", "10:55"),
-        ("Office Hours", "11:05", "11:30"),
-        ("Lunch", "11:30", "12:20"),
-        ("3", "12:20", "1:40"),
-        ("4", "1:50", "3:10"),
+        ("1", "8:35", "9:58"),
+        ("Wolverine Time", "9:58", "10:28"),
+        ("2", "10:34", "11:57"),
+        ("Lunch", "11:57", "12:32"),
+        ("SSH", "12:38", "12:53"),
+        ("3", "12:53", "2:16"),
+        ("4", "2:22", "3:45"),
         ]
     
     
-        static let fri: [(String, String, String)] = [
+        static let wed: [(String, String, String)] = [
         ("Period", "Start", "End"),
-        ("1", "9:00", "10:20"),
-        ("2", "10:30", "11:50"),
-        ("Lunch", "11:50", "12:20"),
-        ("3", "12:20", "1:40"),
-        ("4", "1:50", "3:10"),
+        ("1", "9:55", "11:02"),
+        ("2", "11:08", "12:15"),
+        ("Lunch", "12:15", "12:49"),
+        ("3", "12:55", "2:02"),
+        ("Wolverine Time", "2:02", "2:32"),
+        ("4", "2:38", "3:45"),
         ]
 }
 extension UIColor {
@@ -114,17 +114,17 @@ extension Date {
     
     // returns 1 for finals day type 1-2, 2 for finals day type 3-4, or -1 for no finals
     func isFinals() -> Int {
-       /* let dateFormatter = DateFormatter()
+       let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MM/dd"
         let mmdd = dateFormatter.string(from: self)
-        let finals1 = ["10/25", "01/18", "03/29", "06/13"]
-        let finals2 = ["10/26", "01/19", "03/30", "06/14"]
+        let finals1 = ["10/21", "01/13", "03/24", "06/08"]
+        let finals2 = ["10/22", "01/14", "03/25", "06/09"]
         if let _ = finals1.index(of: mmdd) {
             return 1
         }
         else if let _ = finals2.index(of: mmdd) {
             return 2
-        }*/
+        }
         return -1
     }
 }
