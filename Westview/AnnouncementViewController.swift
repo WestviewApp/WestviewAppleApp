@@ -90,9 +90,11 @@ class AnnouncementViewController: LightVC, UIWebViewDelegate {
                 let _ = newsList.toHTML
                 if(newsList.text != nil) {
                     let h = newsList.toHTML
+                 //   let h2 = h?.replacingOccurrences(of: ".aspx", with: " ")
                     let css = "<style>@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');.newsItem p{font-family: 'Roboto', sans-serif; font-family: 400; font-size: 15px; color: #8F8E94;}.newsItem p strong a{font-weight: 500; font-size: 17px; color: #030303; text-decoration: none;}</style>"
+                    
                     let final = h! + css
-                    webView.loadHTMLString(final, baseURL: nil)
+                    webView.loadHTMLString(final, baseURL: URL(string: "https://www.powayusd.com/en-US/Schools/HS/WVHS/Home"))
                 }
                 //webView.loadHTMLString(newsList?.toHTML, baseURL: nil)
             }

@@ -30,8 +30,8 @@ class MapViewController: UIViewController { //}, GMSMapViewDelegate,CLLocationMa
      /*   let url = NSURL (string: "https://www.google.com/maps/d/embed?mid=1UuI1sahr6xefo4F-uFgtxNIS_yw");
         let request = NSURLRequest(URL: url as! URL);
         self.webView.loadRequest(request)*/
-        var string = "https://www.google.com/maps/d/embed?mid=1UuI1sahr6xefo4F-uFgtxNIS_yw"
-        let indexPaths = NSURL(string: "http://tutlane.com/");
+        let string = "https://www.google.com/maps/d/embed?mid=1UuI1sahr6xefo4F-uFgtxNIS_yw"
+        let indexPaths = NSURL(string: string);
         let requestObj = NSURLRequest(url: indexPaths! as URL);
         webView.loadRequest(requestObj as URLRequest);
 
